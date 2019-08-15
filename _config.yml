@@ -28,6 +28,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  messaging:
+    output: true
+    display: true
+  visual_identity:
+    output: true
+    display: true
+
 defaults:
   -
     scope:
@@ -38,9 +46,15 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "messaging"
     values:
-      layout: "post"
+      layout: "collection"
+  -
+    scope:
+      path: ""
+      type: "visual_identity"
+    values:
+      layout: "collection"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

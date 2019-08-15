@@ -1,0 +1,33 @@
+.button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    @include mono;
+    font-size: 1.3rem;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    color: var(--neutral-600);
+    cursor: pointer;
+    transition: var(--timing) var(--easing);
+}
+
+.button.dark {
+    background-color: var(--neutral-800);
+    border-color: var(--neutral-800);
+    color: var(--neutral-100);
+    &:hover {
+        background-color: var(--neutral-600);
+        border-color: var(--neutral-600);
+    }
+}
+
+.button.light {
+    background: var(--neutral-100);
+    &:hover {
+        background-color: var(--neutral-600);
+        border-color: var(--neutral-600);
+        color: var(--neutral-100);
+    }
+}

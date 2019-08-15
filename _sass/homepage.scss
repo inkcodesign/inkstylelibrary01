@@ -1,0 +1,21 @@
+.homepage__wrapper {
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    @include center;
+}
+
+.homepage__title {
+    font-size: 6em;
+    &::after {
+        width: 4.8rem;
+    }
+}
+
+.homepage__eyebrow {
+    @include tracked-text;
+    font-size: .7em;
+    color: var(--color-text-highlight);
+}
+
+ 

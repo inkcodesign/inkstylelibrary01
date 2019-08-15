@@ -1,0 +1,66 @@
+.sidebar {
+    width: 25.6rem;
+    padding: 3.2rem;
+    border-right: 1px solid var(--neutral-200);
+    background-color: var(--neutral-100);
+
+    > * + * {
+        margin-top: 6.4rem;
+    }
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.sidebar__nav {
+    > * + * {
+        margin-top: 6.4rem;
+    }
+}
+
+.sidebar__collections {
+    > *+* {
+        margin-top: 2.4rem;
+    }
+}
+
+.sidebar__collection__title {
+    @include tracked-text;
+}
+
+.sidebar__collection {
+    > * + * {
+        margin-top: 2.4rem;
+    }
+}
+
+.sidebar__link {
+    color: var(--color-text-light);
+    &:hover {
+        color: var(--color-text-highlight);
+    }
+
+    &[data-active] {
+        color: var(--color-text-highlight)
+    }
+}
+
+.sidebar__logo {
+    display: block;
+    color: var(--color-text);
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    &:hover {
+        color: var(--color-text);
+    }
+
+    > * + * {
+        margin-top: .8rem;
+    }
+
+    @include green-bar;
+}

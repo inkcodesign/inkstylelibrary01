@@ -1,7 +1,6 @@
 ---
-title:  "Positioning Statement"
-categories: Messaging
-permalink: /positioning-statement/
+title:  Patterns
+permalink: /patterns/
 ---
 
 **INK is a marketing communications partner that helps B2B technology brands move beyond what’s predictable by rethinking what’s possible.**

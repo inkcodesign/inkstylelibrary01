@@ -1,0 +1,19 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin green-bar {
+    position: relative;
+    padding-bottom: 2rem;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 3.2rem;
+        height: 3px;
+        background-color: var(--green-500);
+        bottom: 0;
+        left: 0;
+    }
+}

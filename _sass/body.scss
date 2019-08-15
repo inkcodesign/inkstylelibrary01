@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > .sidebar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        overflow-y: auto;
+    }
+
+    & > .main{
+        margin-left: 25.6rem;
+        width: 100%;
+    }
+
+    @media (max-width: 1200px) {
+        & > .main{
+            margin-left: 0;
+        }
+    }
+}

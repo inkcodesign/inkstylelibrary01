@@ -1,0 +1,40 @@
+.main {
+    padding-top: 3.2rem;
+    padding-right: 3.2rem;
+    padding-bottom: 6.4rem;
+    padding-left: 3.2rem;
+
+
+    & > .header {
+        margin-bottom: 6.4rem;
+    }
+}
+
+
+
+.article {
+    max-width: 90rem;
+    width: 100%;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    // margin-right: auto;
+    // margin-left: auto;
+
+    hr,
+    hr + *,
+    h1,
+    h1 + * {
+  --space: 3.2rem;
+}
+
+    section,
+    section + * {
+        --space: 12.8rem;
+    }
+
+
+}
+
+article h1 {
+    @include green-bar;
+}

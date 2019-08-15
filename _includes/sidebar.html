@@ -1,7 +1,26 @@
-<header>
-    <a href="/">Logo</a>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+<aside class="sidebar">
+    <a class="sidebar__logo" href="/">
+        <img src="/assets/logos/logo-sidebar.svg" alt="INK Communications Co.">
+        <h2>Style Library</h2>
+    </a>
+    <nav class="sidebar__nav">
+
+        {% assign filteredCollections = site.collections | where: "display", true %}
+        {% for collection in filteredCollections%}
+        <div class="sidebar__collections">
+            <h3 class="sidebar__collection__title">{{collection.label | replace: "_", " "}}</h3>
+            <ul class="sidebar__collection">
+                {% for item in collection.docs %}
+                {% assign current = page.url | downcase | split: '.' %}
+                <li>
+                    <a class="sidebar__link" href="{{ item.url }}" {% if current[0] == item.url %}data-active=""
+                        {% endif %}>
+                        {{item.title}}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
     </nav>
-</header>
+</aside>

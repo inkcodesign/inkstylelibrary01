@@ -1,0 +1,22 @@
+.assets {
+    --space: 6.4rem;
+}
+
+.asset {
+    --space: 6.4rem;
+
+    & > * {
+        --space: 3.2rem;
+    }
+}
+
+.asset--divided {
+    &:not(:last-child) {
+        padding-bottom: 6.4rem;
+        border-bottom: 1px solid var(--neutral-200);
+    }
+}
+
+.asset__title {
+    font-weight: 700;
+}

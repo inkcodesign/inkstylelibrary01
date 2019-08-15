@@ -1,8 +1,30 @@
 ---
 ---
+// base styles and resets
+@import '../_sass/reset';
+@import '../_sass/fonts';
+@import '../_sass/variables';
+@import '../_sass/base';
+@import '../_sass/typography';
 
+//utilities
+@import '../_sass/utilities';
+@import '../_sass/stack';
 
+//component primitives
+@import '../_sass/links';
+@import '../_sass/horizontal-rule';
+@import '../_sass/buttons';
 
-body {
-    background: yellow;
-} 
+//page level components
+@import '../_sass/body';
+@import '../_sass/sidebar';
+@import '../_sass/main';
+@import '../_sass/header';
+
+//article level components
+@import '../_sass/homepage';
+@import '../_sass/assets';
+@import '../_sass/asset-logos';
+@import '../_sass/asset-colors';
+@import '../_sass/asset-typography';

@@ -1,0 +1,26 @@
+.asset__logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > * + * {
+        margin-left: 3.2rem;
+    }
+
+    @media (max-width: 800px) {
+        align-items: flex-start;
+        flex-direction: column;
+
+        > * + * {
+            margin-left: 0;
+            margin-top: 6.4rem;
+        }
+    }
+}
+
+.asset__logo-button-wrapper {
+    display: flex;
+    > * + * {
+        margin-left: 1.6rem;
+    }
+}

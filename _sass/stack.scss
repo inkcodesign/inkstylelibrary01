@@ -1,0 +1,20 @@
+.stack {
+    --space: 1.6rem;
+  }
+.stack-nested {
+    --space: inherit;
+    --space-nested: --space;
+}
+  
+  [class^='stack'] > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .stack > * + * {
+    margin-top: var(--space);
+  }
+  
+  .stack-nested > * + * {
+    margin-top: var(--space-nested);
+  }

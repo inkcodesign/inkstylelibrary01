@@ -1,0 +1,62 @@
+.asset__type-wrapper {
+    --space: 6.4rem;
+}
+
+.type-specimen__wrapper {
+    --space-nested: 1.6rem;
+}
+
+.type-specimen__name {
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--color-text-light);
+}
+
+.type-specimen__display {
+    &.leaguegothic {
+        @include leaguegothic;
+        @include site-headline;
+    }
+
+    &.eyebrow {
+        @include tracked-text;
+        color: var(--color-text-highlight);
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+
+
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border-color: grey;
+    @include small-text;
+    @include mono;
+}
+
+th {
+    @include tracked-text;
+    background-color: var( --neutral-100);
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+tr {
+    background-color: var(--neutral-100);
+    border-top: 1px solid var(--neutral-89);
+
+}
+
+tr:nth-child(2n-1) {
+    background-color: var(--neutral-97);
+}
+
+td,th {
+    padding: .8rem 1.6rem;
+    border: 1px solid var(--neutral-89);
+    vertical-align: middle;
+}

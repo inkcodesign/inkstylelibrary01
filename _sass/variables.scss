@@ -1,0 +1,34 @@
+:root {
+    --neutral-100: #ffffff;
+    --neutral-97: #f6f8fa;
+    --neutral-89: #dfe2e5;
+    --neutral-200: #afafaf;
+    --neutral-600: #7d7d7d;
+    --neutral-800: #2f2f2e;
+
+    --green-100: #B3DFC9;
+    --green-200: #7DCAA3;
+    --green-300: #65C195;
+    --green-400: #50B184;
+    --green-500: #23b280;
+    --green-600: #179573;
+    --green-700: #11765A;
+    --green-800: #356055;
+
+
+    --blue: #37A7AA;
+    --yellow: #FCD404;
+    --pink: #D75A6A;
+
+    --color-text: var(--neutral-800);
+    --color-text-light: var(--neutral-600);
+    --color-text-highlight: var(--green-500);
+    --color-text-highlight-hover: var(--green-800);
+
+    --timing: .15s;
+    --easing: cubic-bezier(.2, 0, .8, 1);
+    --box-shadow: 0 1.5rem 3.5rem rgba(50,50,93,.1),0 .5rem 1.5rem rgba(0,0,0,.07);
+
+
+    --measure: 35ch;
+}

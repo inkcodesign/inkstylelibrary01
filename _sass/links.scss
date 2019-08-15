@@ -1,0 +1,8 @@
+a {
+    color: var(--color-text-highlight);
+    text-decoration: none;
+    transition: var(--timing) var(--easing);
+    &:hover {
+        color: var(--color-text-highlight-hover);
+    }
+}
