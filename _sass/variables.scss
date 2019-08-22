@@ -1,5 +1,4 @@
 :root {
-
     // Colors
     --neutral-100: #ffffff;
     --neutral-97: #f6f8fa;
@@ -78,15 +77,11 @@
     --lh-xs: 1;
 
 
-    //Design Styles
+    //Design Tokens
     --timing: .15s;
     --easing: cubic-bezier(.2, 0, .8, 1);
     --box-shadow: 0 0 1px rgba(17,17,73,0.25);
-    // --box-shadow: 0 1.5rem 3.5rem rgba(50,50,93,.1),0 .5rem 1.5rem rgba(0,0,0,.07);
-    // --box-shadow: rgba(67,90,111,0.416) 0px 0px 1px, rgba(67,90,111,0.3) 0px 2px 4px -2px;
     --box-shadow-large: 0 4px 8px rgba(17,17,73,0.25);
-
-    //Utilities
     --measure: 45ch;
 }
 
@@ -121,8 +116,3 @@ xl: $width-xl
         @warn 'Invalid breakpoint: #{$breakpoint}.';
     }
 }
-
-
-
-
-//  @include breakpoint(md) { font-size: 32px; }

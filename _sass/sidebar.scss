@@ -3,6 +3,7 @@
     padding: var(--space-double);
     border-right: 1px solid var(--neutral-89);
     background-color: var(--neutral-100);
+    -webkit-overflow-scrolling: touch;
 
     > * + * {
         margin-top: var(--space-quad);
@@ -51,7 +52,7 @@
         background-color: var(--green-42);
         top: 50%;
         left: calc(-1 * var(--space-double) + 5px);
-        transform: translate(-100%, -50%);
+        transform: translate(-200%, -50%);
     }
 
     &[data-active] {
@@ -60,6 +61,15 @@
 
         &::before { 
             opacity: 1;
+
+            animation: sidebarLinkEntrance var(--timing) var(--easing) forwards;
+
+            @keyframes sidebarLinkEntrance {
+                to {
+                    transform: translate(-100%, -50%);
+                }
+                
+            }
         }
     }
 }
