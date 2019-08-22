@@ -3,12 +3,12 @@ title:  Colors
 permalink: /colors/
 ---
 
-**Color Usage Guidelines**
+#### **Color Usage Guidelines**
 
-Our primary colors consist mostly of white, green, and grey. Restricting the use of color for INK's brand applications will ensure we're communicating our professional and confident tone.
+Our primary colors consist mostly of white, green, and grey. Restricting the use of color for INK's brand applications will ensure we consistently communicate our professional and confident tone.
 
-Our secondary brand colors should be used sparingly and when our company culture is the focus of the application.
+Our secondary colors are used sparingly and purposefully, like when our company culture is the collateral's focus.
 
-Tertiary colors should be used for illustration and in data visualization when more than two shades of green are needed.
+Tertiary colors are used for illustration and data visualization when more than two shades of green are needed.
 
 {% include colors.html %}

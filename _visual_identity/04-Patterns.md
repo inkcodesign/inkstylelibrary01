@@ -3,6 +3,11 @@ title:  Patterns
 permalink: /patterns/
 ---
 
-**INK is a marketing communications partner that helps B2B technology brands move beyond what’s predictable by rethinking what’s possible.**
+#### **Pattern Usage**
 
-We create human-centered campaigns inspired by new thinking, informed by data-driven insights, and validated by experience. When your market shifts quickly, we respond to emerging opportunities that will build an enduring brand. Because your goals are our goals, we operate as an extension of your team and help you get the results that matter.
+The INK brand has two patterns that when used properly can bring additional visual interest to a composition. Any composition should feature at most one of these patterns.
+
+Above all, when using a pattern, ensure that overlaid text is legible.
+
+
+{% include patterns.html %}

@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 
     & > .sidebar{
         position: fixed;
@@ -8,16 +9,43 @@ body {
         left: 0;
         bottom: 0;
         overflow-y: auto;
+        transition: var(--easing) var(--timing);
+        z-index: 2;
+        transform: translateX(-100%);
+
+        @include breakpoint(lg) {
+            transform: translateX(0);
+        }
     }
 
     & > .main{
-        margin-left: 25.6rem;
-        width: 100%;
+        margin-left: 0;
+        flex-grow: 1;
+
+        @include breakpoint(lg) {
+            margin-left: var(--space-sex);
+        }
     }
 
-    @media (max-width: 1200px) {
-        & > .main{
-            margin-left: 0;
+
+    
+
+    & > .navbar {
+        display: flex;
+        z-index: 1;
+        position: sticky;
+        top: 0;
+
+        @include breakpoint(lg) {
+            display: none;
+        }
+    }
+
+    &[data-open] {
+        overflow: hidden;
+        .sidebar{
+            transform: translateX(0);
         }
     }
 }
+

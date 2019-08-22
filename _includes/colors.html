@@ -3,88 +3,35 @@
         <li class="asset stack asset--divided">
             <h4 class="asset__title">Primary Colors</h4>
             <ul class="asset__color-wrapper">
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #2F2F2E;"></div>
-                    <h6 class="brand-color__name">Concrete Jungle</h6>
-                    <p class="brand-color__hex">#2F2F2E</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #23B280;"></div>
-                    <h6 class="brand-color__name">Prickly Pear</h6>
-                    <p class="brand-color__hex">#23B280</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #FFFFFF;"></div>
-                    <h6 class="brand-color__name">Starr White</h6>
-                    <p class="brand-color__hex">#FFFFFF</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #7D7D7D;"></div>
-                    <h6 class="brand-color__name">NY Slate of Mind</h6>
-                    <p class="brand-color__hex">#7D7D7D</p>
-                </li>
+                {% include _components/color-block.html style="button" color="neutral-18" name="Concrete Jungle" hex="#2F2F2E" %}
+                {% include _components/color-block.html style="button" color="green-42" name="Prickly Pear" hex="#23B280" %}
+                {% include _components/color-block.html style="button" color="neutral-100" name="Starr White" hex="#FFFFFF" %}
+                {% include _components/color-block.html style="button" color="neutral-49" name="NY Slate of Mind" hex="#7D7D7D" %}
             </ul>
         </li>
 
         <li class="asset stack asset--divided">
             <h4 class="asset__title">Secondary Colors</h4>
             <ul class="asset__color-wrapper">
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #356055;"></div>
-                    <h6 class="brand-color__name">Evergreen</h6>
-                    <p class="brand-color__hex">#356055</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #37A7AA;"></div>
-                    <h6 class="brand-color__name">Brainstorm</h6>
-                    <p class="brand-color__hex">#37A7AA</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #FCD404;"></div>
-                    <h6 class="brand-color__name">Dipped in Queso</h6>
-                    <p class="brand-color__hex">#FCD404</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block" style="--background-color: #D75A6A;"></div>
-                    <h6 class="brand-color__name">Red Rocks</h6>
-                    <p class="brand-color__hex">#D75A6A</p>
-                </li>
+                {% include _components/color-block.html style="button" color="green-29" name="Evergreen" hex="#1E5749" %}
+                {% include _components/color-block.html style="button" color="blue" name="Brainstorm" hex="#37A7AA" %}
+                {% include _components/color-block.html style="button" color="yellow" name="Dipped in Queso" hex="#FCD404" %}
+                {% include _components/color-block.html style="button" color="pink" name="Red Rocks" hex="#D75A6A" %}
             </ul>
         </li>
 
         <li class="asset stack asset--divided">
-            <h4 class="asset__title">Tertiary Colors</h4>
+            <h4 class="asset__title">Extended Palette</h4>
             <ul class="asset__color-wrapper">
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #B3DFC9;"></div>
-                    <h6 class="brand-color__name">Extended 01</h6>
-                    <p class="brand-color__hex">#B3DFC9</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #7DCAA3;"></div>
-                    <h6 class="brand-color__name">Extended 02</h6>
-                    <p class="brand-color__hex">#7DCAA3</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #65C195;"></div>
-                    <h6 class="brand-color__name">Extended 03</h6>
-                    <p class="brand-color__hex">#65C195</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #50B184;"></div>
-                    <h6 class="brand-color__name">Extended 04</h6>
-                    <p class="brand-color__hex">#50B184</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #179573;"></div>
-                    <h6 class="brand-color__name">Extended 05</h6>
-                    <p class="brand-color__hex">#179573</p>
-                </li>
-                <li class="brand-color__wrapper stack">
-                    <div class="brand-color__block small" style="--background-color: #11765A;"></div>
-                    <h6 class="brand-color__name">Extended 06</h6>
-                    <p class="brand-color__hex">#11765A</p>
-                </li>
+                {% include _components/color-block.html style="button" size="small" color="green-79" name="Extended 01" hex="#D5EDD9" %}
+                {% include _components/color-block.html style="button" size="small" color="green-64" name="Extended 02" hex="#BBEDC6" %}
+                {% include _components/color-block.html style="button" size="small" color="green-58" name="Extended 03" hex="#88DBA8" %}
+                {% include _components/color-block.html style="button" size="small" color="green-50" name="Extended 04" hex="#57D096" %}
+                {% include _components/color-block.html style="button" size="small" color="green-42" name="Prickly Pear" hex="#23B280" %}
+                {% include _components/color-block.html style="button" size="small" color="green-34" name="Extended 05" hex="#299A77" %}
+                {% include _components/color-block.html style="button" size="small" color="green-26" name="Extended 06" hex="#268268" %}
+                {% include _components/color-block.html style="button" size="small" color="green-29" name="Evergreen" hex="#1E5749" %}
+
             </ul>
         </li>
 

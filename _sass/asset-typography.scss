@@ -1,21 +1,33 @@
 .asset__type-wrapper {
-    --space: 6.4rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: var(--space-double);
+    row-gap: var(--space-default);
+
+    .type-specimen__descriptor {
+        margin-top: var(--space-half);
+    }
 }
 
-.type-specimen__wrapper {
-    --space-nested: 1.6rem;
+.type-specimen__descriptor {
+    @include small-text;
+    color: var(--color-text-light);
+    border-top: 1px solid var(--neutral-69);
+    padding-top: var(--space-quart);
+    padding-right: var(--space-double);
 }
 
 .type-specimen__name {
-    font-size: 1.4rem;
-    line-height: 1;
-    color: var(--color-text-light);
+    display: block;
+    font-weight: 700;
+    color: var(--color-text-default);
 }
 
 .type-specimen__display {
     &.leaguegothic {
         @include leaguegothic;
-        @include site-headline;
+        @include page-headline;
+        @include green-bar;
     }
 
     &.eyebrow {
@@ -33,7 +45,7 @@ table {
     display: block;
     width: 100%;
     overflow: auto;
-    border-color: grey;
+    border-color: var(--neutral-89);
     @include small-text;
     @include mono;
 }
@@ -42,7 +54,7 @@ th {
     @include tracked-text;
     background-color: var( --neutral-100);
     text-align: left;
-    font-size: 1.3rem;
+    font-size: var(--type-xxs);
 }
 
 tr {
@@ -56,7 +68,7 @@ tr:nth-child(2n-1) {
 }
 
 td,th {
-    padding: .8rem 1.6rem;
+    padding:var(--space-half) var(--space-default);
     border: 1px solid var(--neutral-89);
     vertical-align: middle;
 }

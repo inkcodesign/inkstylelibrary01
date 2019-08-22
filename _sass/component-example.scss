@@ -1,0 +1,31 @@
+.asset__example-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: var(--space-quad);
+}
+
+.example__aspect-ratio {
+    position: relative;
+    padding-bottom: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.example__image {
+    @include absolute-fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.example__description-wrapper {
+    display: flex;
+    align-items: flex-start;
+    & > * + * {
+        margin-left: var(--space-default);
+    }
+}
+
+.example__icon {
+    height: var(--space-double);
+    width: var(--space-double);
+    flex: 0 0 auto;
+}

@@ -1,21 +1,21 @@
 .sidebar {
-    width: 25.6rem;
-    padding: 3.2rem;
-    border-right: 1px solid var(--neutral-200);
+    width: var(--space-sex);
+    padding: var(--space-double);
+    border-right: 1px solid var(--neutral-89);
     background-color: var(--neutral-100);
 
     > * + * {
-        margin-top: 6.4rem;
+        margin-top: var(--space-quad);
     }
+}
 
-    @media (max-width: 1200px) {
-        display: none;
-    }
+.sidebar__logo-mark {
+    max-height: var(--space-double);
 }
 
 .sidebar__nav {
     > * + * {
-        margin-top: 6.4rem;
+        margin-top: var(--space-quad);
     }
 }
 
@@ -37,30 +37,45 @@
 
 .sidebar__link {
     color: var(--color-text-light);
-    &:hover {
+    &:hover,
+    &:focus {
         color: var(--color-text-highlight);
     }
 
+    &::before {
+        opacity: 0;
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 150%;
+        background-color: var(--green-42);
+        top: 50%;
+        left: calc(-1 * var(--space-double) + 5px);
+        transform: translate(-100%, -50%);
+    }
+
     &[data-active] {
-        color: var(--color-text-highlight)
+        color: var(--color-text-highlight);
+        position: relative;
+
+        &::before { 
+            opacity: 1;
+        }
     }
 }
 
 .sidebar__logo {
     display: block;
-    color: var(--color-text);
-
-    h2 {
-        font-size: 3.2rem;
-    }
+    color: var(--color-text-default);
 
     &:hover {
-        color: var(--color-text);
-    }
-
-    > * + * {
-        margin-top: .8rem;
+        color: var(--color-text-default);
     }
 
     @include green-bar;
+}
+
+.sidebar__logo-text {
+    @include leaguegothic;
+    font-size: var(--type-xl);
 }

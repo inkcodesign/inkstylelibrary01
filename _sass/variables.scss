@@ -1,34 +1,128 @@
 :root {
+
+    // Colors
     --neutral-100: #ffffff;
     --neutral-97: #f6f8fa;
     --neutral-89: #dfe2e5;
-    --neutral-200: #afafaf;
-    --neutral-600: #7d7d7d;
-    --neutral-800: #2f2f2e;
+    --neutral-69: #afafaf;
+    --neutral-49: #7d7d7d;
+    --neutral-18: #2f2f2e;
 
-    --green-100: #B3DFC9;
-    --green-200: #7DCAA3;
-    --green-300: #65C195;
-    --green-400: #50B184;
-    --green-500: #23b280;
-    --green-600: #179573;
-    --green-700: #11765A;
-    --green-800: #356055;
+    --green-79: #B3DFC9; //100
+    --green-64: #7DCAA3; //200
+    --green-58: #65C195; //300 
+    --green-50: #50B184; //400
+    --green-42: #23b280; //500
+    --green-34: #179573; //600
+    --green-26: #11765A; //700
+    --green-29: #356055; //800
 
-
+    --green-79: #D5EDD9;
+    --green-64: #BBEDC6;
+    --green-58: #88DBA8;
+    --green-50: #57D096;
+    --green-42: #23b280;
+    --green-34: #299A77;
+    --green-26: #268268;
+    --green-29: #1E5749;
+    
     --blue: #37A7AA;
     --yellow: #FCD404;
     --pink: #D75A6A;
 
-    --color-text: var(--neutral-800);
-    --color-text-light: var(--neutral-600);
-    --color-text-highlight: var(--green-500);
-    --color-text-highlight-hover: var(--green-800);
+    --color-text-default: var(--neutral-18);
+    --color-text-light: var(--neutral-49);
+    --color-text-highlight: var(--green-42);
+    --color-text-highlight-hover: var(--green-29);
 
+    //Spacing
+    --space-default: 1.6rem;
+    --space-quart: calc(var(--space-default) / 4); //4
+    --space-half: calc(var(--space-default) / 2); //8
+    --space-double: calc(var(--space-default) * 2); //32
+    --space-quad: calc(var(--space-default) * 4); //64
+    --space-oct: calc(var(--space-default) * 8); //128
+    --space-sex: calc(var(--space-default) * 16);  //256
+
+    //Font Sizes
+    --type-xxs:     1.3rem;
+    --type-xs:      1.5rem;
+    --type-sm:      1.6rem; //used for eyebrows only
+    --type-default: 1.8rem;
+    --type-md:      2.0rem;
+    --type-lg:      2.7rem;
+    --type-xl:      4.0rem;
+    --type-xxl:     8.0rem;
+    --type-xxxl:   12.0rem;
+
+
+    $map: (50rem: 1.4rem, 150rem: 1.5rem);
+    @include poly-fluid-sizing('--type-xs', $map);
+
+    $map: (50rem: 2.1rem, 150rem: 2.4rem);
+    @include poly-fluid-sizing('--type-lg', $map);
+
+    $map: (50rem: 3.6rem, 150rem: 4rem);
+    @include poly-fluid-sizing('--type-xl', $map);
+
+    $map: (50rem: 6rem, 150rem: 8rem);
+    @include poly-fluid-sizing('--type-xxl', $map);
+
+    $map: (50rem: 9rem, 150rem: 12rem);
+    @include poly-fluid-sizing('--type-xxxl', $map);
+
+    //Line Heights
+    --lh-default: 1.6;
+    --lh-title: .9;
+    --lh-sm: 1.4;
+    --lh-xs: 1;
+
+
+    //Design Styles
     --timing: .15s;
     --easing: cubic-bezier(.2, 0, .8, 1);
-    --box-shadow: 0 1.5rem 3.5rem rgba(50,50,93,.1),0 .5rem 1.5rem rgba(0,0,0,.07);
+    --box-shadow: 0 0 1px rgba(17,17,73,0.25);
+    // --box-shadow: 0 1.5rem 3.5rem rgba(50,50,93,.1),0 .5rem 1.5rem rgba(0,0,0,.07);
+    // --box-shadow: rgba(67,90,111,0.416) 0px 0px 1px, rgba(67,90,111,0.3) 0px 2px 4px -2px;
+    --box-shadow-large: 0 4px 8px rgba(17,17,73,0.25);
 
-
-    --measure: 35ch;
+    //Utilities
+    --measure: 45ch;
 }
+
+$width-xs: 0;
+$width-sm: 500px;
+$width-md: 800px;
+$width-lg: 1000px;
+$width-xl: 1500px;
+
+$breakpoints: (
+sm: $width-sm,
+md: $width-md,
+lg: $width-lg,
+xl: $width-xl
+);
+
+@mixin breakpoint($breakpoint) {
+// If the breakpoint exists in the map.
+    @if map-has-key($breakpoints, $breakpoint) {
+
+        // Get the breakpoint value.
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        // Write the media query.
+        @media (min-width: $breakpoint-value) {
+        @content;
+    }
+
+// If the breakpoint doesn't exist in the map.
+    } @else {
+    // Log a warning.
+        @warn 'Invalid breakpoint: #{$breakpoint}.';
+    }
+}
+
+
+
+
+//  @include breakpoint(md) { font-size: 32px; }

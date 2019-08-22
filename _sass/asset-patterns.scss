@@ -1,0 +1,5 @@
+.asset__pattern-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: var(--space-double);
+}

@@ -10,18 +10,15 @@
 </head>
 
 <body class="{{page.title | downcase | replace: " ", "-" }}">
-    {% include sidebar.html %}
+    {% include _components/header.html %}
+    {% include _components/sidebar.html %}
     <main class="main">
-        <!-- <header class="header">
-            <h1 class="homepage__title">{{page.title}}</h1>
-        </header> -->
-
         <article class="article homepage__wrapper">
             {{content}}
         </article>
 
     </main>
-    <script src="/assets/js/button-copy.js"></script>
+    <script src="/assets/js/navbar.js"></script>
 </body>
 
 </html>

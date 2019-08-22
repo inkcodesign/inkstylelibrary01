@@ -1,21 +1,83 @@
+body.home {
+    .main {
+        display: flex;
+        align-items: center;
+    }
+}
+
 .homepage__wrapper {
-    height: 100%;
-    font-size: 1.5em;
     display: flex;
-    @include center;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    $map: (50rem: 3.2rem, 150rem: 6.4rem);
+    @include poly-fluid-sizing('padding-top', $map);
+
+    & > * {
+        flex: 0 1 50%;
+    }
+
+    & > * + * {
+        margin-left: var(--space-quad);
+    }
+    > .homepage__content {
+        flex-basis: auto;
+        @include breakpoint(md) {
+            flex-basis: unset;
+        }
+    }
+}
+
+
+
+.homepage__image-wrapper {
+    display: none;
+    overflow: hidden;
+
+    @include breakpoint(md) {
+        display: block;
+    }
+}
+
+.homepage__image {
+    opacity: 0;
+    transform: scale(1.1);
+    animation: homepageImageFadeIn 1.5s .5s var(--easing) forwards;
+
+    @keyframes homepageImageFadeIn {
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
 }
 
 .homepage__title {
-    font-size: 6em;
-    &::after {
-        width: 4.8rem;
-    }
+    @include leaguegothic;
+    font-size: var(--type-xxxl);
+    @include green-bar;
+    max-width: 10ch;
 }
 
 .homepage__eyebrow {
     @include tracked-text;
-    font-size: .7em;
+    font-size: var(--type-default);
     color: var(--color-text-highlight);
 }
 
- 
+.homepage__copy {
+    @include large-text;
+    font-size: var(--type-lg);
+    max-width: calc(var(--measure) * .75);
+}
+
+ .homepage__contact {
+     color: var(--neutral-49);
+     width: 75%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     --space: var(--space-quad);
+     --space-nested: var(--space-double);
+ }

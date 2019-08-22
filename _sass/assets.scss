@@ -1,22 +1,35 @@
 .assets {
-    --space: 6.4rem;
+    --space: var(--space-quad);
 }
 
 .asset {
-    --space: 6.4rem;
+    --space: var(--space-quad);
 
     & > * {
-        --space: 3.2rem;
+        --space: var(--space-double);
     }
 }
 
 .asset--divided {
-    &:not(:last-child) {
-        padding-bottom: 6.4rem;
-        border-bottom: 1px solid var(--neutral-200);
+        padding-top: var(--space-quad);
+        border-top: 1px solid var(--neutral-89);
+    
+}
+
+.asset__title-wrapper {
+    display: flex;
+    align-items: center;
+    & > * + * {
+        margin-left: var(--space-default);
     }
 }
 
 .asset__title {
     font-weight: 700;
+}
+
+.asset__meta {
+    color: var(--neutral-49);
+    @include mono;
+    @include small-text;
 }

@@ -1,21 +1,15 @@
 html {
     font-family: BrandonText, sans-serif;
-    font-size: 62.5%;
 }
 
 body {
-    line-height: 1.6;
-    font-size: 1.8rem;
+    line-height: var(--lh-default);
+    font-size: var(--type-default);
 }
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-figcaption {
+figcaption,
+hr,h1,h2,h3,h4,h5,h6 {
     max-width: var(--measure);
   }
 
@@ -28,7 +22,7 @@ b, strong {
     font-family: LeagueGothic;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: .9;
+    line-height: var(--lh-title);
 }
 
 @mixin mono {
@@ -39,20 +33,20 @@ b, strong {
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase;
-    font-size: 1.4rem;
-    line-height: 1.3;
+    font-size: var(--type-sm);
+    line-height: var(--lh-sm);
 }
 
 @mixin small-text {
-    font-size: 1.3rem;
-    line-height: 1.4;
+    font-size: var(--type-xs);
+    line-height: var(--lh-sm);
 }
 
-@mixin site-headline {
-    font-size: 8rem;
+@mixin large-text {
+    font-size: var(--type-md);
+    line-height: var(--lh-sm);
 }
 
-h1, h2{
-    @include leaguegothic;
-    font-size: 4rem;
+@mixin page-headline {
+    font-size: var(--type-xxl);
 }

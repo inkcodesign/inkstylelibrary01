@@ -1,0 +1,5 @@
+.article__title {
+    @include leaguegothic;
+    @include page-headline; 
+    @include green-bar(1.5);
+}

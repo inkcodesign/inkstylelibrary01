@@ -1,33 +1,31 @@
+button {
+    cursor: pointer;
+}
+
 .button {
     display: block;
     background: none;
     border: none;
+    text-align: center;
     padding: 0;
     @include mono;
-    font-size: 1.3rem;
-    border: 1px solid;
+    font-size: var(--type-xs);
+    border: 1px solid var(--neutral-69);
     border-radius: 4px;
     padding: 1em 1.5em;
-    color: var(--neutral-600);
+    color: var(--neutral-49);
     cursor: pointer;
     transition: var(--timing) var(--easing);
-}
-
-.button.dark {
-    background-color: var(--neutral-800);
-    border-color: var(--neutral-800);
-    color: var(--neutral-100);
-    &:hover {
-        background-color: var(--neutral-600);
-        border-color: var(--neutral-600);
-    }
-}
-
-.button.light {
     background: var(--neutral-100);
-    &:hover {
-        background-color: var(--neutral-600);
-        border-color: var(--neutral-600);
+    &:hover,
+    &:focus {
+        background-color: var(--neutral-18);
+        border-color: var(--neutral-18);
         color: var(--neutral-100);
     }
+}
+
+.asset__logo-buttons {
+    display: flex;
+    flex-direction: column;
 }

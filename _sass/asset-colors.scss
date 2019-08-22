@@ -1,27 +1,6 @@
 .asset__color-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 1.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: var(--space-default);
 }
 
-.brand-color__block {
-    height: 10rem;
-    background-color: var(--background-color);
-    box-shadow: var(--box-shadow);
-
-    &.small {
-        height: 5rem;
-    }
-}
-
-.brand-color__name {
-    font-size: 1.4rem;
-    line-height: 1;
-    color: var(--color-text-light);
-    --space: .8rem;
-}
-
-.brand-color__hex {
-    @include mono;
-    --space: .8rem;
-}
