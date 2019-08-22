@@ -39,17 +39,18 @@ body.home {
     }
 }
 
-.homepage__title {
-    @include leaguegothic;
-    font-size: var(--type-xxxl);
-    @include green-bar;
-    max-width: 10ch;
-}
-
 .homepage__eyebrow {
     @include tracked-text;
     font-size: var(--type-default);
     color: var(--color-text-highlight);
+}
+
+.homepage__title {
+    @include leaguegothic;
+    font-size: var(--type-xxxl);
+    @include green-bar;
+    max-width: 11ch;
+    --space: var(--space-double);
 }
 
 .homepage__copy {
