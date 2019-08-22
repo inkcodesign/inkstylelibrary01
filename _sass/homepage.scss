@@ -34,7 +34,6 @@ body.home {
 .homepage__image-wrapper {
     display: none;
     overflow: hidden;
-
     @include breakpoint(md) {
         display: block;
     }
