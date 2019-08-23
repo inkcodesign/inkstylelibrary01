@@ -2,12 +2,13 @@ body.home {
     .main {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 }
 
 .homepage__wrapper {
     display: flex;
-    max-width: 100%;
+    max-width: 90em;
     align-items: center;
     justify-content: center;
 
