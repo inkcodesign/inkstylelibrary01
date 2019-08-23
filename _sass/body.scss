@@ -46,6 +46,10 @@ body {
             transform: translateX(0);
             pointer-events: all;
         }
+
+        .navbar {
+            pointer-events: all;
+        }
     }
 }
 
