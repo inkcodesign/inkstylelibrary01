@@ -25,10 +25,7 @@ body {
         @include breakpoint(lg) {
             margin-left: var(--space-sex);
         }
-    }
-
-
-    
+    }    
 
     & > .navbar {
         display: flex;
@@ -42,9 +39,12 @@ body {
     }
 
     &[data-open] {
-        overflow: hidden;
+        overflow-y: hidden;
+        pointer-events: none;
+
         .sidebar{
             transform: translateX(0);
+            pointer-events: all;
         }
     }
 }

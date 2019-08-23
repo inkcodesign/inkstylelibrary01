@@ -3,7 +3,7 @@
     width: 100%;
     padding-top: var(--space-double);
     // padding-right: var(--space-quad);
-    // padding-bottom: var(--space-quad);
+    padding-bottom: var(--space-quad);
     // padding-left: var(--space-quad);
     --space: var(--space-quad);
 
@@ -14,8 +14,6 @@
     $map: (50rem: 1.6rem, 150rem: 6.4rem);
     @include poly-fluid-sizing('padding-left', $map);
 
-    $map: (50rem: 3.2rem, 150rem: 6.4rem);
-    @include poly-fluid-sizing('padding-bottom', $map);
 }
 
 .article__content {

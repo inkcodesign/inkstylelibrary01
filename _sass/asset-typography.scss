@@ -48,6 +48,7 @@ table {
     border-color: var(--neutral-89);
     @include small-text;
     @include mono;
+    -webkit-overflow-scrolling: touch;
 }
 
 th {
