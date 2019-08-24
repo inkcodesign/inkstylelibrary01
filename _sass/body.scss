@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
 
     & > .sidebar{
         position: fixed;
@@ -31,6 +29,7 @@ body {
         z-index: 1;
         position: sticky;
         top: 0;
+        left: 0;
 
         @include breakpoint(lg) {
             display: none;
