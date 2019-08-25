@@ -1,0 +1,22 @@
+{
+  "name": "inkstyleguide",
+  "version": "1.0.0",
+  "description": "online style library for INK Communications Co.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenbarkan/inkstylelibrary.git"
+  },
+  "author": "Stephen Barkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenbarkan/inkstylelibrary/issues"
+  },
+  "homepage": "https://github.com/stephenbarkan/inkstylelibrary#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
