@@ -30,6 +30,12 @@ body {
         bottom: var(--space-default);
         right: var(--space-default);
 
+        @include breakpoint(sm) {
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
         @include breakpoint(lg) {
             display: none;
         }
