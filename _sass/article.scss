@@ -3,7 +3,12 @@
     width: 100%;
     padding-top: var(--space-double);
     padding-bottom: var(--space-quad);
-    --space: var(--space-quad);
+
+    & > * {
+        --space: var(--space-quad);
+        $map: (50rem: 3.2rem, 150rem: 6.4rem);
+        @include poly-fluid-sizing('--space', $map); 
+    }
 
 
     $map: (50rem: 1.6rem, 150rem: 6.4rem);
@@ -19,24 +24,34 @@
 }
 
 .article__content {
-    --space-nested: var(--space-default);
-    hr,
-    hr + *,
+    
+    & > * + * {
+        --space: var(--space-default);
+    }
+
     h1,
     h1 + * {
-        --space-nested: var(--space-double);
+        --space: var(--space-double);
+    }
+
+    hr,
+    hr + * {
+        $map: (50rem: 3.2rem, 150rem: 6.4rem);
+        @include poly-fluid-sizing('--space', $map);
     }
 
     h4 {
         @include large-text;
         &:last-of-type {
-            --space-nested: var(--space-quad);
+            $map: (50rem: 3.2rem, 150rem: 6.4rem);
+            @include poly-fluid-sizing('--space', $map);
         }
     }
 
     section,
     section + * {
-        --space-nested: var(--space-quad);
+        $map: (50rem: 3.2rem, 150rem: 6.4rem);
+        @include poly-fluid-sizing('--space', $map);
     }
 
     > ul {

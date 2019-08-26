@@ -11,7 +11,7 @@ body.home {
     display: grid;
     grid-template-columns: 1fr;
     align-content: stretch;
-    grid-template-rows: 30rem auto;
+    grid-template-rows: 50vw auto;
     gap: var(--space-double) var(--space-quad); 
     max-width: 162rem;
     align-items: stretch;
@@ -35,6 +35,15 @@ body.home {
     object-position: left bottom;
     height: 100%;
     width: 100%;
+}
+
+.homepage__content {
+
+    & > .homepage__contact {
+        --space: var(--space-quad);
+        $map: (50rem: 3.2rem, 150rem: 6.4rem);
+        @include poly-fluid-sizing('--space', $map); 
+    }
 }
 
 
@@ -63,6 +72,8 @@ body.home {
      display: flex;
      flex-direction: column;
      align-items: flex-start;
-     --space: var(--space-quad);
-     --space-nested: var(--space-double);
+     
+     & > * {
+         --space: var(--space-double);
+     }
  }

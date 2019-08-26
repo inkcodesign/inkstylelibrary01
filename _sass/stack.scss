@@ -1,5 +1,4 @@
 .stack {
-    --space: var(--space-default);
   }
 .stack-nested {
     --space: inherit;
@@ -12,9 +11,11 @@
   }
   
   .stack > * + * {
+    --space: var(--space-default);
     margin-top: var(--space);
   }
   
   .stack-nested > * + * {
+    --space: var(--space-default);
     margin-top: var(--space-nested);
   }
