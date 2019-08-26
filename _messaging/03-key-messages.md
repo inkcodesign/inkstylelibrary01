@@ -3,7 +3,7 @@ title:  "Key Messages"
 permalink: /key-messages/
 ---
 
-#### **Our Approach:**
+#### **Our Approach**
 
 **Transform your B2B marketing with a human-to-human mindset.**
 
@@ -11,7 +11,7 @@ We match powerful analytics with an approach that embraces empathy and curiosity
 
 ---
 
-#### **Our Work:**
+#### **Our Work**
 
 **We power creative intuition with data-driven insights to help you reach what’s next.**
 
@@ -19,7 +19,7 @@ By using timely data to inform and evaluate every aspect of our work, we’re ab
 
 ---
 
-#### **Our Partnership:**
+#### **Our Partnership**
 
 **When change is the only constant, you need a partner who leads in real time.**
 

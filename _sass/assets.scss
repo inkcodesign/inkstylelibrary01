@@ -1,5 +1,7 @@
 .assets {
     --space: var(--space-quad);
+    $map: (50rem: 3.2rem, 150rem: 6.4rem);
+    @include poly-fluid-sizing('--space', $map);
 }
 
 .asset {
@@ -11,9 +13,8 @@
 }
 
 .asset--divided {
-        padding-top: var(--space-quad);
+        padding-top: var(--space);
         border-top: 1px solid var(--neutral-89);
-    
 }
 
 .asset__title-wrapper {

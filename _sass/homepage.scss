@@ -11,11 +11,14 @@ body.home {
     display: grid;
     grid-template-columns: 1fr;
     align-content: stretch;
-    grid-template-rows: 30rem auto;
+    grid-template-rows: 50vw auto;
     gap: var(--space-double) var(--space-quad); 
     max-width: 162rem;
     align-items: stretch;
     justify-content: center;
+
+    $map: (50rem: 1.6rem, 150rem: 3.2rem);
+    @include poly-fluid-sizing('padding-top', $map);
 
     @include breakpoint(md) {
         grid-template-columns: repeat(2, 1fr);
@@ -65,4 +68,7 @@ body.home {
      align-items: flex-start;
      --space: var(--space-quad);
      --space-nested: var(--space-double);
+
+     $map: (50rem: 3.2rem, 150rem: 6.4rem);
+     @include poly-fluid-sizing('--space', $map);
  }
