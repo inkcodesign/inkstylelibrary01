@@ -9,6 +9,7 @@ body.home {
 
 .homepage__wrapper {
     display: flex;
+    flex-direction: column-reverse;
     max-width: 90em;
     align-items: center;
     justify-content: center;
@@ -18,12 +19,22 @@ body.home {
     }
 
     & > * + * {
-        margin-left: var(--space-quad);
+        margin-bottom: var(--space-double);
     }
+
+
     > .homepage__content {
         flex-basis: auto;
         @include breakpoint(md) {
             flex-basis: unset;
+        }
+    }
+
+    @include breakpoint(md) {
+        flex-direction: row;
+        & > * + * {
+            margin-left: var(--space-quad);
+            margin-bottom: 0;
         }
     }
 }
@@ -31,11 +42,7 @@ body.home {
 
 
 .homepage__image-wrapper { 
-    display: none;
 
-    @include breakpoint(md) {
-        display: block;
-    }
 }
 
 .homepage__eyebrow {

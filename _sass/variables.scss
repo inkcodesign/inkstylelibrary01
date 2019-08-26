@@ -64,10 +64,10 @@
     $map: (50rem: 3.6rem, 150rem: 4rem);
     @include poly-fluid-sizing('--type-xl', $map);
 
-    $map: (50rem: 6rem, 150rem: 8rem);
+    $map: (50rem: 5rem, 150rem: 8rem);
     @include poly-fluid-sizing('--type-xxl', $map);
 
-    $map: (50rem: 9rem, 150rem: 12rem);
+    $map: (50rem: 8rem, 150rem: 12rem);
     @include poly-fluid-sizing('--type-xxxl', $map);
 
     //Line Heights
