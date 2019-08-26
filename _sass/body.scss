@@ -24,12 +24,18 @@ body {
         }
     }    
 
-    & > .navbar {
-        display: flex;
-        z-index: 1;
-        position: sticky;
-        top: 0;
-        left: 0;
+    & > .fab {
+        z-index: 3;
+        position: fixed;
+        bottom: var(--space-default);
+        right: var(--space-default);
+
+        @include breakpoint(sm) {
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
 
         @include breakpoint(lg) {
             display: none;
@@ -45,7 +51,7 @@ body {
             pointer-events: all;
         }
 
-        .navbar {
+        .fab {
             pointer-events: all;
         }
     }

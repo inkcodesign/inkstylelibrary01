@@ -68,6 +68,6 @@
 .color-block__hex {
     @include mono;
     text-transform: uppercase;
-    --space: 0;
+    --space: var(--space-quart);
     
 }
