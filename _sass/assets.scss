@@ -1,11 +1,14 @@
 .assets {
-    --space: var(--space-quad);
-    $map: (50rem: 3.2rem, 150rem: 6.4rem);
-    @include poly-fluid-sizing('--space', $map);
+    // --space: var(--space-quad);
+
+    & > * {
+        --space: var(--space-quad);
+        $map: (50rem: 3.2rem, 150rem: 6.4rem);
+        @include poly-fluid-sizing('--space', $map); 
+    }
 }
 
 .asset {
-    --space: var(--space-quad);
 
     & > * {
         --space: var(--space-double);

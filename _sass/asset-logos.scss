@@ -46,12 +46,3 @@
     width: 100%;
     max-width: 50rem;
 }
-
-.hidden {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    pointer-events: none;
-    opacity: 0;
-    transform: scale(0);
-}
