@@ -15,11 +15,12 @@
         height: 7.5rem;
     }
 
-    &.large {
-        height: 20rem;
+    &.tiny {
+        height: 5rem;
     }
 
     &.pattern {
+        height: 20rem;
         &::after {
             content: '';
             position: absolute;
