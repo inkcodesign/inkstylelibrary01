@@ -1,13 +1,17 @@
 .sidebar {
     width: var(--space-sex);
     padding: var(--space-double);
-    border-right: 1px solid var(--neutral-89);
-    background-color: var(--neutral-100);
+    border-right: 1px solid var(--neutral-600);
+    background-color: var(--neutral-800);
     -webkit-overflow-scrolling: touch;
 
     > * + * {
         margin-top: var(--space-quad);
     }
+}
+
+.sidebar__logo {
+    @include stack;
 }
 
 .sidebar__logo-mark {
@@ -37,10 +41,10 @@
 }
 
 .sidebar__link {
-    color: var(--color-text-light);
+    color: var(--neutral-400);
     &:hover,
     &:focus {
-        color: var(--color-text-highlight);
+        color: var(--green-400);
     }
 
     &::before {
@@ -49,37 +53,28 @@
         content: '';
         width: 5px;
         height: 150%;
-        background-color: var(--green-42);
+        background-color: var(--green-400);
         top: 50%;
         left: calc(-1 * var(--space-double) + 5px);
-        transform: translate(-200%, -50%);
+        transform: translate(-100%, -50%);
     }
 
     &[data-active] {
-        color: var(--color-text-highlight);
+        color: var(--green-400);
         position: relative;
 
         &::before { 
             opacity: 1;
-
-            animation: sidebarLinkEntrance var(--timing) var(--easing) forwards;
-
-            @keyframes sidebarLinkEntrance {
-                to {
-                    transform: translate(-100%, -50%);
-                }
-                
-            }
         }
     }
 }
 
 .sidebar__logo {
     display: block;
-    color: var(--color-text-default);
+    color: var(--neutral-100);
 
     &:hover {
-        color: var(--color-text-default);
+        color: var(--neutral-100);
     }
 
     @include green-bar;

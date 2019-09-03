@@ -1,38 +1,32 @@
 :root {
     // Colors
-    --neutral-100: #ffffff;
-    --neutral-97: #f7f7f7;
-    --neutral-89: #dfe2e5;
-    --neutral-69: #afafaf;
-    --neutral-49: #7d7d7d;
-    --neutral-18: #2f2f2e;
+    --neutral-800: #ffffff;
+    --neutral-700: #f7f7f7;
+    --neutral-600: #E2E2E2;
+    --neutral-500: #afafaf;
+    --neutral-400: #757575;
+    --neutral-100: #2f2f2e;
 
-    --green-79: #B3DFC9; //100
-    --green-64: #7DCAA3; //200
-    --green-58: #65C195; //300 
-    --green-50: #50B184; //400
-    --green-42: #23b280; //500
-    --green-34: #179573; //600
-    --green-26: #11765A; //700
-    --green-29: #356055; //800
+    --green-800: #D5EDD9;
+    --green-700: #BBEDC6;
+    --green-600: #88DBA8;
+    --green-500: #57D096;
+    --green-400: #23b280;
+    --green-300: #299A77;
+    --green-200: #268268;
+    --green-100: #1E5749;
 
-    --green-79: #D5EDD9;
-    --green-64: #BBEDC6;
-    --green-58: #88DBA8;
-    --green-50: #57D096;
-    --green-42: #23b280;
-    --green-34: #299A77;
-    --green-26: #268268;
-    --green-29: #1E5749;
-    
-    --blue: #37A7AA;
-    --yellow: #FCD404;
-    --pink: #D75A6A;
+    --blue-800: #EFFBFA;
+    --blue-400: #37A7AA;
+    --blue-100: #134963;
 
-    --color-text-default: var(--neutral-18);
-    --color-text-light: var(--neutral-49);
-    --color-text-highlight: var(--green-42);
-    --color-text-highlight-hover: var(--green-29);
+    --yellow-800: #FFFBDB;
+    --yellow-400: #FCD404;
+    --yellow-100: #87711A;
+
+    --pink-800: #F8E2E8;
+    --pink-400: #D75A6A;
+    --pink-100: #871A1C;
 
     //Spacing
     --space-default: 1.6rem;

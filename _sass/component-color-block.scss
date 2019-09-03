@@ -1,3 +1,7 @@
+.color-block__wrapper {
+    @include stack;
+}
+
 .color-block__block {
     display: block;
     position: relative;
@@ -47,10 +51,10 @@
     @include mono;
     font-size: var(--type-xxs);
     padding: 0.4em 1.5em;
-    background-color: var(--neutral-18);
-    color: var(--neutral-100);
+    background-color: var(--neutral-100);
+    color: var(--neutral-800);
     border-radius: 999px;
-    border: 1px solid var(--neutral-49);
+    border: 1px solid var(--neutral-400);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +65,7 @@
 
 .color-block__name {
     @include small-text;
-    color: var(--color-text-light);
+    color: var(--neutral-400);
     --space:var(--space-half);
 }
 

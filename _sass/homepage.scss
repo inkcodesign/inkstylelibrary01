@@ -21,6 +21,10 @@ body.home {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
+
+    > * + * {
+        --space: 0;
+    }
 }
 
 .homepage__image-wrapper {
@@ -38,6 +42,7 @@ body.home {
 }
 
 .homepage__content {
+    @include stack;
 
     & > .homepage__contact {
         --space: var(--space-quad);
@@ -50,7 +55,7 @@ body.home {
 .homepage__eyebrow {
     @include tracked-text;
     font-size: var(--type-default);
-    color: var(--color-text-highlight);
+    color: var(--green-400);
 }
 
 .homepage__title {
@@ -61,13 +66,16 @@ body.home {
 }
 
 .homepage__copy {
+    @include stack;
     @include large-text;
     font-size: var(--type-lg);
     max-width: calc(var(--measure) * .75);
 }
 
  .homepage__contact {
-     color: var(--neutral-49);
+     @include stack;
+
+     color: var(--neutral-400);
      width: 75%;
      display: flex;
      flex-direction: column;

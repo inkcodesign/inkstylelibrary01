@@ -10,24 +10,19 @@ button {
     padding: 0;
     @include mono;
     font-size: var(--type-xs);
-    border: 1px solid var(--neutral-69);
+    border: 1px solid var(--neutral-500);
     border-radius: 4px;
     padding: 1em 1.5em;
-    color: var(--neutral-49);
+    color: var(--neutral-400);
     cursor: pointer;
     transition: var(--timing) var(--easing);
-    background: var(--neutral-100);
+    background: var(--neutral-800);
     &:hover,
     &:focus {
-        background-color: var(--neutral-18);
-        border-color: var(--neutral-18);
-        color: var(--neutral-100);
+        background-color: var(--neutral-100);
+        border-color: var(--neutral-100);
+        color: var(--neutral-800);
     }
-}
-
-.asset__logo-buttons {
-    display: flex;
-    flex-direction: column;
 }
 
 .hidden {

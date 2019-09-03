@@ -11,8 +11,8 @@
 
 .type-specimen__descriptor {
     @include small-text;
-    color: var(--color-text-light);
-    border-top: 1px solid var(--neutral-69);
+    color: var(--neutral-400);
+    border-top: 1px solid var(--neutral-500);
     padding-top: var(--space-quart);
     padding-right: var(--space-double);
 }
@@ -20,7 +20,7 @@
 .type-specimen__name {
     display: block;
     font-weight: 700;
-    color: var(--color-text-default);
+    color: var(--neutral-100);
 }
 
 .type-specimen__display {
@@ -32,7 +32,7 @@
 
     &.eyebrow {
         @include tracked-text;
-        color: var(--color-text-highlight);
+        color: var(--green-400);
     }
 
     &.bold {
@@ -45,7 +45,7 @@ table {
     display: block;
     width: 100%;
     overflow: auto;
-    border-color: var(--neutral-89);
+    border-color: var(--neutral-600);
     @include small-text;
     @include mono;
     -webkit-overflow-scrolling: touch;
@@ -53,23 +53,23 @@ table {
 
 th {
     @include tracked-text;
-    background-color: var( --neutral-100);
+    background-color: var( --neutral-800);
     text-align: left;
     font-size: var(--type-xxs);
 }
 
 tr {
-    background-color: var(--neutral-100);
-    border-top: 1px solid var(--neutral-89);
+    background-color: var(--neutral-800);
+    border-top: 1px solid var(--neutral-600);
 
 }
 
 tr:nth-child(2n-1) {
-    background-color: var(--neutral-97);
+    background-color: var(--neutral-700);
 }
 
 td,th {
     padding:var(--space-half) var(--space-default);
-    border: 1px solid var(--neutral-89);
+    border: 1px solid var(--neutral-600);
     vertical-align: middle;
 }

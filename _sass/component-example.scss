@@ -4,6 +4,10 @@
     gap: var(--space-quad);
 }
 
+.example {
+    @include stack;
+}
+
 .example__aspect-ratio {
     position: relative;
     padding-bottom: 100%;

@@ -24,6 +24,12 @@
     max-width: 30rem;
 }
 
+.asset__logo-buttons {
+    display: flex;
+    flex-direction: column;
+    @include stack;
+}
+
 .asset__logo-button-wrapper {
     display: flex;
     > * + * {

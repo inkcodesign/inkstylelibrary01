@@ -1,5 +1,5 @@
 .assets {
-    // --space: var(--space-quad);
+    @include stack;
 
     & > * {
         --space: var(--space-quad);
@@ -9,7 +9,8 @@
 }
 
 .asset {
-
+    @include stack;
+    
     & > * {
         --space: var(--space-double);
     }
@@ -17,7 +18,7 @@
 
 .asset--divided {
         padding-top: var(--space);
-        border-top: 1px solid var(--neutral-89);
+        border-top: 1px solid var(--neutral-600);
 }
 
 .asset__title-wrapper {
@@ -33,7 +34,7 @@
 }
 
 .asset__meta {
-    color: var(--neutral-49);
+    color: var(--neutral-400);
     @include mono;
     @include small-text;
 }
