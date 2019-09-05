@@ -65,7 +65,7 @@
 }
 
 .color-block__name {
-    @include small-text;
+    @include body-copy-small;
     color: var(--neutral-400);
     --space:var(--space-half);
 }

@@ -2,21 +2,6 @@ html {
     font-family: BrandonText, sans-serif;
 }
 
-body {
-    line-height: var(--lh-default);
-    font-size: var(--type-default);
-}
-
-p,
-figcaption,
-hr,h1,h2,h3,h4,h5,h6 {
-    max-width: var(--measure);
-  }
-
-b, strong {
-    font-weight: 700;
-}
-
 
 @mixin leaguegothic {
     font-family: LeagueGothic;
@@ -29,7 +14,7 @@ b, strong {
     font-family: 'Roboto Mono', monospace;
 }
 
-@mixin tracked-text {
+@mixin eyebrow-title {
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase;
@@ -37,16 +22,27 @@ b, strong {
     line-height: var(--lh-sm);
 }
 
-@mixin small-text {
+@mixin body-copy {
+    line-height: var(--lh-default);
+    font-size: var(--type-default);
+}
+
+@mixin body-copy-small {
     font-size: var(--type-xs);
     line-height: var(--lh-sm);
 }
 
-@mixin large-text {
-    font-size: var(--type-md);
 
+body {
+    @include body-copy;
 }
 
-@mixin page-headline {
-    font-size: var(--type-xxl);
+p,
+figcaption,
+hr,h1,h2,h3,h4,h5,h6 {
+    max-width: var(--measure);
+  }
+
+b, strong {
+    font-weight: 700;
 }

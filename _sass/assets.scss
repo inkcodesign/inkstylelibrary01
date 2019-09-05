@@ -1,39 +1,25 @@
 * + .asset-section {
     border-top: 1px solid var(--neutral-600);
-    $map: (50rem: 3.2rem, 150rem: 6.4rem);
-    @include poly-fluid-sizing('padding-top', $map); 
+    padding-top: var(--space); 
 }
 
 .assets {
-    @include stack;
-
-    & > * {
-        --space: var(--space-quad);
-        $map: (50rem: 3.2rem, 150rem: 6.4rem);
-        @include poly-fluid-sizing('--space', $map); 
-    }
+    @include stack(var(--space-double-to-quad));
 }
 
 .asset {
-    @include stack;
-    
-    & > * {
-        --space: var(--space-double);
-    }
+    @include stack(var(--space-double));
 }
 
 .asset--divided {
-        &+& {
-            border-top: 1px solid var(--neutral-600);
-            padding-top: var(--space);
-        }
+    &+& {
+        border-top: 1px solid var(--neutral-600);
+        padding-top: var(--space);
+    }
 }
 
 .asset__title-wrapper {
-    @include stack;
-    & > *+* {
-        --space: var(--space-half);
-    }
+    @include stack(var(--space-half));
 }
 
 .asset__title {
@@ -47,5 +33,5 @@
 .asset__meta {
     color: var(--neutral-400);
     @include mono;
-    @include small-text;
+    @include body-copy-small;
 }

@@ -10,7 +10,7 @@
 }
 
 .type-specimen__descriptor {
-    @include small-text;
+    @include body-copy-small;
     color: var(--neutral-400);
     border-top: 1px solid var(--neutral-500);
     padding-top: var(--space-quart);
@@ -26,12 +26,12 @@
 .type-specimen__display {
     &.leaguegothic {
         @include leaguegothic;
-        @include page-headline;
+        font-size: var(--type-xxl);
         @include green-bar;
     }
 
     &.eyebrow {
-        @include tracked-text;
+        @include eyebrow-title;
         color: var(--green-400);
     }
 
@@ -46,16 +46,19 @@ table {
     width: 100%;
     overflow: auto;
     border-color: var(--neutral-600);
-    @include small-text;
+    @include body-copy-small;
     @include mono;
     -webkit-overflow-scrolling: touch;
 }
 
 th {
-    @include tracked-text;
     background-color: var( --neutral-800);
     text-align: left;
     font-size: var(--type-xxs);
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    line-height: var(--lh-sm);
 }
 
 tr {

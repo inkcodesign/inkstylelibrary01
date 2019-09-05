@@ -18,15 +18,15 @@
 
     --blue-800: #EFFBFA;
     --blue-400: #37A7AA;
-    --blue-100: #134963;
+    // --blue-100: #134963;
 
     --yellow-800: #FFFBDB;
     --yellow-400: #FCD404;
-    --yellow-100: #87711A;
+    // --yellow-100: #87711A;
 
     --pink-800: #F8E2E8;
     --pink-400: #D75A6A;
-    --pink-100: #871A1C;
+    // --pink-100: #871A1C;
 
     //Spacing
     --space-default: 1.6rem;
@@ -36,6 +36,9 @@
     --space-quad: calc(var(--space-default) * 4); //64
     --space-oct: calc(var(--space-default) * 8); //128
     --space-sex: calc(var(--space-default) * 16);  //256
+
+    $map: (50rem: 3.2rem, 150rem: 6.4rem);
+    @include poly-fluid-sizing('--space-double-to-quad', $map);
 
     //Font Sizes
     --type-xxs:     1.3rem; //base * 0.72
@@ -67,7 +70,7 @@
     $map: (50rem: 3.6rem, 150rem: 4rem);
     @include poly-fluid-sizing('--type-xl', $map);
 
-    $map: (50rem: 5rem, 150rem: 8rem);
+    $map: (50rem: 6rem, 150rem: 8rem);
     @include poly-fluid-sizing('--type-xxl', $map);
 
     $map: (50rem: 8rem, 150rem: 12rem);
@@ -84,7 +87,7 @@
     --timing: .15s;
     --easing: cubic-bezier(.2, 0, .8, 1);
     --box-shadow: 0 0 1px rgba(17,17,73,0.25);
-    --box-shadow-large: 0 4px 8px rgba(17,17,73,0.25);
+    --box-shadow-large: 0 15px 25px rgba(50,50,93,.2), 0 5px 5px rgba(0,0,0,.14);
     --measure: 45ch;
 }
 

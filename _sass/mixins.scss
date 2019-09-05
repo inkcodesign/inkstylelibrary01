@@ -39,3 +39,10 @@
       margin-top: var(--space);
     }
   }
+
+  @mixin stack-exception($space) {
+    &,
+    & + * {
+      --space: #{$space};
+    }
+  }

@@ -48,10 +48,7 @@ body.home {
     @include stack;
 
     & > .homepage__contact {
-        --space: var(--space-quad);
-        $map: (50rem: 3.2rem, 150rem: 6.4rem);
-        @include poly-fluid-sizing('--space', $map);
-        
+        --space: var(--space-double-to-quad);
         border-top: 1px solid var(--neutral-600);
         padding-top: var(--space);
     }
@@ -59,7 +56,7 @@ body.home {
 
 
 .homepage__eyebrow {
-    @include tracked-text;
+    @include eyebrow-title;
     font-size: var(--type-default);
     color: var(--green-400);
 }
@@ -73,7 +70,6 @@ body.home {
 
 .homepage__copy {
     @include stack;
-    @include large-text;
     font-size: var(--type-lg);
     max-width: calc(var(--measure) * .75);
 }
