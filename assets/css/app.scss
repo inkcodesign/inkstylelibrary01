@@ -9,33 +9,29 @@
 @import '../_sass/variables';
 @import '../_sass/base';
 @import '../_sass/typography';
-@import '../_sass/sass-variables';
 @import '../_sass/mixins';
-
-//utilities
-@import '../_sass/utilities';
-@import '../_sass/stack';
 
 //component primitives
 @import '../_sass/links';
-@import '../_sass/horizontal-rule';
-@import '../_sass/buttons';
+@import '../_sass/components/component-horizontal-rule';
+@import '../_sass/components/component-button';
+
+
+//article level components
+@import '../_sass/assets/asset-logos';
+@import '../_sass/assets/asset-colors';
+@import '../_sass/assets/asset-typography';
+@import '../_sass/assets/asset-patterns';
+
+
+//components
+@import '../_sass/components/component-example';
+@import '../_sass/components/component-color-block';
+@import '../_sass/components/component-fab';
+@import '../_sass/components/component-sidebar';
 
 //page level components
 @import '../_sass/body';
-@import '../_sass/sidebar';
 @import '../_sass/article';
-@import '../_sass/article-title';
-@import '../_sass/fab';
-
-//article level components
 @import '../_sass/homepage';
 @import '../_sass/assets';
-@import '../_sass/asset-logos';
-@import '../_sass/asset-colors';
-@import '../_sass/asset-typography';
-@import '../_sass/asset-patterns';
-
-//components
-@import '../_sass/component-example';
-@import '../_sass/component-color-block';

@@ -25,3 +25,15 @@
         left: 0;
     }
 }
+
+@mixin stack($space: var(--space-default)) {
+    & > * {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    
+    &>*+*{
+      --space: #{$space};
+      margin-top: var(--space);
+    }
+  }
