@@ -1,6 +1,6 @@
 ---
-title:  Patterns
-permalink: /patterns/
+title: Patterns
+permalink: "/patterns/"
 ---
 
 #### **Pattern Usage**

@@ -1,6 +1,6 @@
 ---
-title:  Typography
-permalink: /typography/
+title: Typography
+permalink: "/typography/"
 ---
 
 #### **Our Fonts**

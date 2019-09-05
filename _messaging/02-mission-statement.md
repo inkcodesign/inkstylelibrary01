@@ -1,6 +1,6 @@
 ---
-title:  "Mission Statement"
-permalink: /mission-statement/
+title: Mission Statement
+permalink: "/mission-statement/"
 ---
 
 **Good work with good people makes for a good life.**

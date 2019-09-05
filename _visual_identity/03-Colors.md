@@ -1,6 +1,6 @@
 ---
-title:  Colors
-permalink: /colors/
+title: Colors
+permalink: "/colors/"
 ---
 
 {% include colors.html %}
