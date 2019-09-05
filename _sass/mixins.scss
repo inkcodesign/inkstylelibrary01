@@ -12,13 +12,15 @@
     justify-content: center;
 }
 
-@mixin green-bar($length-multiplier: 1) {
+@mixin green-bar {
     position: relative;
     padding-bottom: 2rem;
     &::after {
         content: "";
         position: absolute;
-        width: calc(var(--space-double) * #{$length-multiplier});
+        width: var(--space-double);
+        $map: (50rem: 2.4rem, 150rem: 3.2rem);
+        @include poly-fluid-sizing('width', $map);
         height: 3px;
         background-color: var(--green-400);
         bottom: 0;

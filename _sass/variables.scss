@@ -38,19 +38,28 @@
     --space-sex: calc(var(--space-default) * 16);  //256
 
     //Font Sizes
-    --type-xxs:     1.3rem;
-    --type-xs:      1.5rem;
-    --type-sm:      1.6rem; //used for eyebrows only
+    --type-xxs:     1.3rem; //base * 0.72
+    --type-xs:      1.5rem; //base * 0.83
+    --type-sm:      1.6rem; //base * 0.88   //used for eyebrows only
     --type-default: 1.8rem;
-    --type-md:      2.0rem;
-    --type-lg:      2.7rem;
-    --type-xl:      4.0rem;
-    --type-xxl:     8.0rem;
-    --type-xxxl:   12.0rem;
+    --type-md:      2.0rem; //base * 1.10
+    --type-lg:      2.4rem; //base * 1.33
+    --type-xl:      4.0rem; //base * 2.22
+    --type-xxl:     8.0rem; //base * 4.44
+    --type-xxxl:   12.0rem; //base * 6.67
 
 
     $map: (50rem: 1.4rem, 150rem: 1.5rem);
     @include poly-fluid-sizing('--type-xs', $map);
+
+    $map: (50rem: 1.5rem, 150rem: 1.6rem);
+    @include poly-fluid-sizing('--type-sm', $map);
+
+    $map: (50rem: 1.7rem, 150rem: 1.8rem);
+    @include poly-fluid-sizing('--type-default', $map);
+
+    $map: (50rem: 1.9rem, 150rem: 2rem);
+    @include poly-fluid-sizing('--type-md', $map);
 
     $map: (50rem: 2.1rem, 150rem: 2.4rem);
     @include poly-fluid-sizing('--type-lg', $map);
