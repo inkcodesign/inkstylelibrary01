@@ -1,7 +1,13 @@
 <section class="asset-section asset-section--colors">
-    <ul class="assets  ">
-        <li class="asset   asset--divided">
-            <h4 class="asset__title">Typography Example</h4>
+    <ul class="assets">
+        <li class="asset">
+
+            <div class="asset__title-wrapper">
+                <h4 class="asset__title">Our Fonts</h4>
+                <div class="asset__description">
+                    {{ page['Our Fonts Text'] | markdownify }}
+                </div>
+            </div>
 
             <div class="asset__type-wrapper">
                 <h6 class="type-specimen__descriptor"><span class="type-specimen__name">Brandon Text
@@ -29,10 +35,26 @@
                     communications programs.</p>
             </div>
         </li>
+        <li class="asset">
+            <h4 class="asset__title">Legibility Guidelines</h4>
+            <ul>
+                <li>
+                    <strong>Line height: </strong>{{ page['Readability Guidelines']['Line height'] }}
+                </li>
+                <li>
+                    <strong>Line length: </strong>{{ page['Readability Guidelines']['Line length'] }}
+                </li>
+                <li>
+                    <strong>Text alignment: </strong>{{ page['Readability Guidelines']['Text alignment'] }}
+                </li>
+                <li>
+                    <strong>Font weight: </strong>{{ page['Readability Guidelines']['Font weight'] }}
+                </li>
+            </ul>
+        </li>
 
-
-        <li class="asset   asset--divided">
-            <h4 class="asset__title">Powerpoint Typography</h4>
+        <li class="asset">
+            <h4 class="asset__title">Powerpoint Typography Scale</h4>
             <table>
                 <thead>
                     <tr>
@@ -104,9 +126,9 @@
                 </tbody>
             </table>
         </li>
-        <li class="asset   asset--divided">
+        <li class="asset ">
             <div class="asset__title-wrapper">
-                <h4 class="asset__title">Web Typography</h4>
+                <h4 class="asset__title">Web Typography Scale</h4>
                 <p class="asset__meta"> (1rem = 10px)</p>
             </div>
             <table>

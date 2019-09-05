@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 2fr;
     column-gap: var(--space-double);
     row-gap: var(--space-default);
+    @include stack-exception(var(--space-quad));
 
     .type-specimen__descriptor {
         margin-top: var(--space-half);

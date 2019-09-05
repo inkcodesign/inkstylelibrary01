@@ -12,13 +12,13 @@
 @import '../_sass/typography';
 @import '../_sass/mixins';
 
-//component primitives
-@import '../_sass/links';
-@import '../_sass/components/component-horizontal-rule';
-@import '../_sass/components/component-button';
+//page level components
+@import '../_sass/body';
+@import '../_sass/article';
+@import '../_sass/homepage';
 
-
-//article level components
+//asset components
+@import '../_sass/assets';
 @import '../_sass/assets/asset-logos';
 @import '../_sass/assets/asset-colors';
 @import '../_sass/assets/asset-typography';
@@ -31,8 +31,7 @@
 @import '../_sass/components/component-fab';
 @import '../_sass/components/component-sidebar';
 
-//page level components
-@import '../_sass/body';
-@import '../_sass/article';
-@import '../_sass/homepage';
-@import '../_sass/assets';
+//component primitives
+@import '../_sass/links';
+@import '../_sass/components/component-horizontal-rule';
+@import '../_sass/components/component-button';

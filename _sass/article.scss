@@ -28,19 +28,6 @@
     h4 {
         font-size: var(--type-md);
     }
-
-    > ul {
-        list-style: initial;
-        padding-left: calc(var(--space-default) + var(--space-half));
-
-        & > * > * {
-            padding-right: var(--space-double);
-        }
-
-        & > * + * {
-            margin-top: var(--space-default);
-        }
-    }
 }
 
 .article__title {
