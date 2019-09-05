@@ -1,0 +1,7 @@
+.bulleted-list {
+    list-style: initial;
+    --subtracted-space: calc(var(--space-default) + var(--space-half));
+    padding-left: var(--subtracted-space);
+    @include stack;
+    max-width: calc(var(--measure) - var(--subtracted-space));
+}

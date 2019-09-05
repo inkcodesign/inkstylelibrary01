@@ -13,14 +13,6 @@
         border-top: 1px solid var(--neutral-600);
         padding-top: var(--space);
     }
-
-    > ul {
-        list-style: initial;
-        --subtracted-space: calc(var(--space-default) + var(--space-half));
-        padding-left: var(--subtracted-space);
-        @include stack;
-        max-width: calc(var(--measure) - var(--subtracted-space));
-    }
 }
 
 .asset__title-wrapper {
