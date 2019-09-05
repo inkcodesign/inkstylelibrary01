@@ -1,6 +1,6 @@
 ---
-title:  "Positioning Statement"
-permalink: /positioning-statement/
+title: Positioning Statement
+permalink: "/positioning-statement/"
 ---
 
 **INK is a marketing communications partner that helps B2B technology brands move beyond what’s predictable by rethinking what’s possible.**

@@ -1,6 +1,6 @@
 ---
 title: Logos
-permalink: /logos/
+permalink: "/logos/"
 ---
 
 #### **Logo Usage Guidelines**

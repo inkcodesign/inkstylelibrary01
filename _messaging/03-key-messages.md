@@ -1,6 +1,6 @@
 ---
-title:  "Key Messages"
-permalink: /key-messages/
+title: Key Messages
+permalink: "/key-messages/"
 ---
 
 #### **Our Approach**
