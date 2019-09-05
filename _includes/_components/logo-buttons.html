@@ -1,6 +1,20 @@
 <div class="asset__logo-buttons  ">
-    <a download href="/assets/logos/{{ include.dark-url }}" class="button light">Download Grey Logo</a>
-    <a download href="/assets/logos/{{ include.light-url }}" class="button light">Download
-        White Logo</a>
+
+    <div class="button button-options">
+        <span class="button-options__span">Download Grey Logo</span>
+        <div class="button-options__option-wrapper">
+            <a download href="/assets/logos/{{ include.dark-url }}.png" class="button button-options__option">.png</a>
+            <a download href="/assets/logos/{{ include.dark-url }}.eps" class="button button-options__option">.eps</a>
+        </div>
+    </div>
+
+    <div class="button button-options">
+        <span class="button-options__span">Download White Logo</span>
+        <div class="button-options__option-wrapper">
+            <a download href="/assets/logos/{{ include.light-url }}.png" class="button button-options__option">.png</a>
+            <a download href="/assets/logos/{{ include.light-url }}.eps" class="button button-options__option">.eps</a>
+        </div>
+    </div>
+
     <button class="button copy">Copy SVG Code</button>
 </div>
