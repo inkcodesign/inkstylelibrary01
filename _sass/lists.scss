@@ -1,4 +1,5 @@
-.bulleted-list {
+.bulleted-list,
+.article__content > ul  {
     list-style: initial;
     --subtracted-space: calc(var(--space-default) + var(--space-half));
     padding-left: var(--subtracted-space);
