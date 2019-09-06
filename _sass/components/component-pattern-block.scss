@@ -7,7 +7,7 @@
     flex-direction: column;
 
     > * + * {
-        margin-top: var(--space-double);
+        margin-top: var(--space-default);
     }
     
     @include breakpoint(md) {
@@ -44,7 +44,7 @@
 }
 
 .pattern-block__content {
-    @include stack;
+    @include stack(var(--space-double));
 }
 
 .pattern-block__button {
