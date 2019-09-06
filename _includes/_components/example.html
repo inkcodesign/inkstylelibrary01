@@ -5,7 +5,7 @@
     <div class="example__explanation-wrapper">
 
 
-        {% if include.type == "true" %}
+        {% if include.type == "good" %}
         <svg class="example__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <circle cx="12" cy="12" r="12" fill="#D5EDD9" />
@@ -14,18 +14,18 @@
                 fill="#23B280" />
         </svg>
 
-        {% else %}
-        <svg class="example__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="12" fill="#F8E2E8" />
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="12" fill="#F5A9B3" />
             <path
                 d="M10.5857 12.0001L7.29285 15.293L8.70706 16.7072L12 13.4143L15.2928 16.7072L16.7071 15.293L13.4142 12.0001L16.7071 8.70718L15.2928 7.29297L12 10.5859L8.70706 7.29297L7.29285 8.70718L10.5857 12.0001Z"
                 fill="#D75A6A" />
         </svg>
 
+
         {% endif %}
-        <p class="example__explanation">
+        <p class="example__description">
             {{ include.explanation }}
+            {{ include.type }}
         </p>
     </div>
 </li>
