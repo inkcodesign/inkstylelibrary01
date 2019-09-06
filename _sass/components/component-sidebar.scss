@@ -1,14 +1,17 @@
 .sidebar {
-    display: flex;
-    flex-direction: column;
     width: var(--space-sex);
+    padding: var(--space-double);
     border-right: 1px solid var(--neutral-600);
     background-color: var(--neutral-800);
     -webkit-overflow-scrolling: touch;
-    padding-top: var(--space-double);
-    padding-bottom: var(--space-default);
 
-    @include stack(var(--space-quad));
+    > * + * {
+        margin-top: var(--space-quad);
+    }
+}
+
+.sidebar__logo {
+    @include stack;
 }
 
 .sidebar__logo-mark {
@@ -16,10 +19,9 @@
 }
 
 .sidebar__nav {
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
-    padding-bottom: var(--space-double);
-    @include stack(var(--space-quad));
+    > * + * {
+        margin-top: var(--space-quad);
+    }
 }
 
 .sidebar__collections {
@@ -70,25 +72,15 @@
 .sidebar__logo {
     display: block;
     color: var(--neutral-100);
-    @include stack;
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
 
     &:hover {
         color: var(--neutral-100);
     }
+
+    @include green-bar;
 }
 
 .sidebar__logo-text {
     @include leaguegothic;
     font-size: var(--type-xl);
-    @include green-bar;
-}
-
-.sidebar__bottom-nav {
-    margin-top: auto;
-    border-top: 1px solid var(--neutral-600);
-    padding-top: var(--space-default);
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
 }
