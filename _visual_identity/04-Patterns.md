@@ -5,20 +5,20 @@ examples:
 - explanation: Here the green pattern functions as a decorative border. A white box
     with ample padding is used to contain the text, ensuring it can be easily read.
   image: "/uploads/example_green-pattern.jpg"
-  good/bad: good
+  good-bad: good
 - explanation: Here the text overlaid on the pattern is large enough to provide enough
     contrast with the pattern.
   image: "/uploads/example_headline-on-pattern.jpg"
-  good/bad: good
+  good-bad: good
 - explanation: Here the text overlaid on the pattern is not large enough to provide
     enough contrast with the pattern. A composition with this much text would be an
     inappropriate instance to use the pattern.
   image: "/uploads/example_copy-on-pattern.jpg"
-  good/bad: bad
+  good-bad: bad
 - explanation: Text must be set in Starr White when overlaid on the dark pattern to
     create enough contrast.
   image: "/uploads/example_dark-pattern.jpg"
-  good/bad: good
+  good-bad: good
 ---
 
 #### **Pattern Usage**
