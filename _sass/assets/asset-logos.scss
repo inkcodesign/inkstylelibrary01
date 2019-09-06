@@ -37,8 +37,9 @@
     }
 }
 
-.asset__clear-space-wrapper {
+.asset__clear-space {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr;
     gap: var(--space-double);
 
@@ -46,6 +47,14 @@
         grid-template-columns: 1fr 2fr;
         gap: var(--space-quad);
     }
+}
+
+.asset > .asset__clear-space + .asset__clear-space {
+    @include stack-exception(var(--space-quad));
+}
+
+.asset__clear-space-text {
+    @include stack;
 }
 
 .asset__clear-space-img {

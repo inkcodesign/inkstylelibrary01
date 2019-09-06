@@ -1,16 +1,14 @@
-<section class="asset-section asset-section--logos  ">
-	<ul class="assets  ">
-		<li class="asset ">
+<section class="asset-section asset-section--logos">
+	<ul class="assets">
+		<li class="asset">
 			<div class="asset__title-wrapper">
 				<h4 class="asset__title">Primary Logo</h4>
 				<p class="asset__description">
-					Our primary logo should be used whenever possible. The secondary lockup may be used as needed if it
-					is better suited to the applied space.
+					In most instances, the primary logo is the preferred application of our brand identity. See the
+					descriptions above the other versions of our logo for explanations of when to use them.
 				</p>
 			</div>
 			<div class="asset__logo-wrapper">
-				<!-- <img class="asset__logo" src="/assets/logos/INK-logo-primary.svg"
-					alt="INK Communications Co. secondary logo"> -->
 				<svg enable-background="new 0 0 239 130" viewBox="0 0 239 130" xmlns="http://www.w3.org/2000/svg"
 					width="300">
 					<path clip-rule="evenodd" d="m0 0v109.1h40.3v-109.1zm29.8 97.3h-19.2v-85.5h19.2z" fill="#2f2f2e"
@@ -65,12 +63,17 @@
 							d="m237.3 128.2h-17.7c-.1 0-.2.1-.2.2v1.2c0 .1.1.2.2.2h17.7c.1 0 .2-.1.2-.2v-1.2c0-.1-.1-.2-.2-.2z" />
 					</g>
 				</svg>
-
 				{% include _components/logo-buttons.html dark-url="INK-logo-primary" light-url="INK-logo-primary-white" %}
 			</div>
 		</li>
-		<li class="asset ">
-			<h4 class="asset__title">Primary Logo (Only Letters)</h4>
+		<li class="asset">
+			<div class="asset__title-wrapper">
+				<h4 class="asset__title">Primary Logo (Only Letters)</h4>
+				<p class="asset__description">
+					Use this version of the Primary Logo when a more minimal representation of our brand identity is
+					preferred or if the applied space is small enough that "Communications Co." would be illegible.
+				</p>
+			</div>
 			<div class="asset__logo-wrapper">
 				<svg enable-background="new 0 0 239 109" viewBox="0 0 239 109" xmlns="http://www.w3.org/2000/svg"
 					width="300">
@@ -94,11 +97,17 @@
 				{% include _components/logo-buttons.html dark-url="INK-logo-secondary" light-url="INK-logo-secondary-white" %}
 			</div>
 		</li>
-		<li class="asset ">
-			<h4 class="asset__title">Secondary Logo</h4>
+		<li class="asset">
+			<div class="asset__title-wrapper">
+				<h4 class="asset__title">Secondary Logo</h4>
+				<p class="asset__description">
+					Use the Secondary Logo when the applied space is at least twice as wide as it is tall, for instance
+					the physical logo above the HQ office doors.
+				</p>
+			</div>
 			<div class="asset__logo-wrapper">
 				<svg enable-background="new 0 0 366 34" viewBox="0 0 366 34" xmlns="http://www.w3.org/2000/svg"
-					width="400">
+					width="450">
 					<g fill="#2f2f2e">
 						<path
 							d="m91.1 9.2c1.8 0 3.6.6 4.9 1.9 0 0 .1.1.1.1v.2.2s-.1.1-.1.1l-1.2 1.3s-.1.1-.1.1h-.1-.1s-.1-.1-.1-.1c-.9-.8-2-1.2-3.1-1.2-1.2 0-2.4.6-3.2 1.5s-1.3 2.1-1.3 3.3.5 2.4 1.3 3.3 2 1.4 3.2 1.5c1.1 0 2.2-.4 3.1-1.2.1-.1.2-.1.3-.1s.2 0 .3.1l1.3 1.3c.1.1.1.2.1.3s0 .2-.1.3c-1.3 1.3-3.1 2-5 2-2 0-3.8-.8-5.2-2.2s-2.2-3.3-2.2-5.2c0-2 .8-3.9 2.2-5.2 1.2-1.5 3.1-2.3 5-2.3z" />
@@ -148,17 +157,25 @@
 		</li>
 
 
-		<li class="asset ">
+		<li class="asset">
 			<div class="asset__title-wrapper">
+				<h4 class="asset__title">Logo Clear Space</h4>
+				<p class="asset__description">When placing the mark in a composition, the logo must have a margin of
+					clear space equivalent to “X”</p>
 			</div>
-			<div class="asset__clear-space-wrapper">
-				<div class=" ">
-					<h4 class="asset__title">Logo Clear Space</h4>
-					<p>When placing the mark in a composition, the logo must have a margin of clear space equivalent to
-						“x”
-						(half the height of the INK mark) on all sides.</p>
+			<div class="asset__clear-space">
+				<div class="asset__clear-space-text">
+					<p><strong>Primary Logos</strong></p>
+					<p class="asset__meta">X = half the height of the INK Letters</p>
 				</div>
-				<img class="asset__clear-space-img" src="../assets/logos/logo-clear-space.svg" alt="">
+				<img class="asset__clear-space-img" src="../assets/logos/logo-primary_clear-space.svg" alt="">
+			</div>
+			<div class="asset__clear-space">
+				<div class="asset__clear-space-text">
+					<p><strong>Secondary Logo</strong></p>
+					<p class="asset__meta">X = the full height of the logo</p>
+				</div>
+				<img class="asset__clear-space-img" src="../assets/logos/logo-secondary_clear-space.svg" alt="">
 			</div>
 		</li>
 	</ul>
