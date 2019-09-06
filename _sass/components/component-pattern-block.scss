@@ -1,0 +1,52 @@
+
+
+.pattern-block__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    > * + * {
+        margin-top: var(--space-double);
+    }
+    
+    @include breakpoint(md) {
+        flex-direction: row;
+
+        > * + * {
+            margin-top: 0;
+            margin-left: var(--space-quad);
+        }
+    }
+}
+
+.pattern-block__block {
+    display: block;
+    position: relative;
+    width: 100%;
+    border: none;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    height: 20rem;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url(../patterns/pattern.svg);
+        background-size: 10rem;
+        opacity: 1;
+        mix-blend-mode: difference;
+    }
+}
+
+.pattern-block__content {
+    @include stack;
+}
+
+.pattern-block__button {
+    display: inline-block;
+}

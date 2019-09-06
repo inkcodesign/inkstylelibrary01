@@ -24,15 +24,16 @@
 @import '../_sass/assets/asset-typography';
 @import '../_sass/assets/asset-patterns';
 
-
-//components
-@import '../_sass/components/component-example';
-@import '../_sass/components/component-color-block';
-@import '../_sass/components/component-fab';
-@import '../_sass/components/component-sidebar';
-
 //component primitives
 @import '../_sass/links';
 @import '../_sass/components/component-horizontal-rule';
 @import '../_sass/components/component-button';
 @import '../_sass/lists';
+
+//components
+@import '../_sass/components/component-example';
+@import '../_sass/components/component-color-block';
+@import '../_sass/components/component-pattern-block';
+@import '../_sass/components/component-fab';
+@import '../_sass/components/component-sidebar';
+

@@ -46,3 +46,22 @@
       --space: #{$space};
     }
   }
+
+  @mixin switcher($space: var(--space-default), $threshold: 800px, $limit: 3 ) {
+    & > * {
+      display: flex;
+      flex-wrap: wrap;
+      margin: calc((#{$space} / 2) * -1);
+    }
+    
+    & > * > * {
+      flex-grow: 1;
+      flex-basis: calc((#{$threshold} - (100% - #{$space})) * 999);
+      margin: calc(#{$space} / 2);
+    }
+    
+    & > * > :nth-last-child(n+#{$limit}),
+    & > * > :nth-last-child(n+#{$limit}) ~ * {
+      flex-basis: 100%;
+    }
+  }

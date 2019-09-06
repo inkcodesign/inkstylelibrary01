@@ -1,0 +1,14 @@
+<div class="pattern-block__wrapper">
+
+    <div class="pattern-block__block {{include.size}}" style="--background-color: var(--{{include.color}});">
+    </div>
+
+    <div class="pattern-block__content">
+        <p class="pattern-block__description">{{include.description}}</p>
+
+        <a class="pattern-block__button button" download
+            href="/assets/patterns/INK_pattern_{{include.type}}.png">Download
+            {{include.type | capitalize}} Pattern</a>
+    </div>
+
+</div>
