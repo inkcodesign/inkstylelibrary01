@@ -6,12 +6,14 @@
     <nav class="sidebar__nav">
 
         {% assign filteredCollections = site.collections | where: "display", true %}
+
         {% for collection in filteredCollections%}
+        {% assign current = page.url | downcase | split: '.' %}
+
         <div class="sidebar__collections">
             <h3 class="sidebar__collection__title">{{collection.label | replace: "_", " "}}</h3>
             <ul class="sidebar__collection">
                 {% for item in collection.docs %}
-                {% assign current = page.url | downcase | split: '.' %}
                 <li>
                     <a class="sidebar__link" href="{{ item.url }}" {% if current[0] == item.url %}data-active=""
                         {% endif %}>
@@ -23,4 +25,8 @@
         </div>
         {% endfor %}
     </nav>
+
+    <div class="sidebar__bottom-nav">
+        <a href="/changelog" class="sidebar__link">Change Log</a>
+    </div>
 </aside>
