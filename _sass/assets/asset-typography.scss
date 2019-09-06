@@ -1,21 +1,34 @@
 .asset__type-wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
     column-gap: var(--space-double);
     row-gap: var(--space-default);
     @include stack-exception(var(--space-quad));
 
-    .type-specimen__descriptor {
-        margin-top: var(--space-half);
+
+
+    @include breakpoint(sm) {
+        grid-template-columns: 1fr 2fr;
+        .type-specimen__descriptor {
+            margin-top: var(--space-half);
+        }
     }
 }
 
 .type-specimen__descriptor {
     @include body-copy-small;
     color: var(--neutral-400);
+
+    * + & {
     border-top: 1px solid var(--neutral-500);
-    padding-top: var(--space-quart);
-    padding-right: var(--space-double);
+    padding-top: var(--space-default);
+    }
+
+
+    @include breakpoint(sm) {
+        border-top: 1px solid var(--neutral-500);
+        padding-top: var(--space-quart);
+        padding-right: var(--space-double);
+    }
 }
 
 .type-specimen__name {
@@ -28,7 +41,10 @@
     &.leaguegothic {
         @include leaguegothic;
         font-size: var(--type-xxl);
-        @include green-bar;
+
+        @include breakpoint(sm) {
+            @include green-bar;
+        }
     }
 
     &.eyebrow {
@@ -38,6 +54,10 @@
 
     &.bold {
         font-weight: 700;
+    }
+
+    @include breakpoint(sm) {
+        border-top: none;
     }
 }
 
