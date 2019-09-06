@@ -1,5 +1,5 @@
 <li class="color-block__wrapper  ">
-    {% if {{include.style == 'button'}} %}
+    {% if include.style == 'button' %}
     <button class="color-block__block {{include.size}}" style="--background-color: var(--{{include.color}});"
         data-clipboard-text="{{include.hex}}">
         <span class="color-block__copy">Copy HEX</span>
@@ -9,13 +9,13 @@
         style="--background-color: var(--{{include.color}});">
     </div>
     {% endif %}
-    {% if {{include.name'}} %}
+    {% if include.name %}
     <p class="color-block__name">{{include.name}}</p>
     {% endif %}
-    {% if {{include.hex'}} %}
+    {% if include.hex %}
     <h6 class="color-block__hex">{{include.hex}}</h6>
     {% endif %}
-    {% if {{include.description'}} %}
+    {% if include.description %}
     <p class="color-block__description">{{include.description}}</p>
     {% endif %}
 </li>

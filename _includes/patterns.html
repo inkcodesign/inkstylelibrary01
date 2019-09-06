@@ -10,10 +10,27 @@
         <li class="asset ">
             <h4 class="asset__title">Usage Examples</h4>
             <ul class="asset__example-wrapper">
-                {% include _components/example.html type="good" description="Here the green pattern functions as a decorative border. A white box with ample padding is used to contain the text, ensuring it can be easily read." image="example_green-pattern.jpg" %}
+
+                {% for example in page.examples %}
+
+                {% capture type %}
+                {{example.is-good}}
+                {% endcapture %}
+
+                {% capture explanation %}
+                {{example.explanation}}
+                {% endcapture %}
+
+                {% capture image %}
+                {{example.image}}
+                {% endcapture %}
+
+                {% include _components/example.html type=type explanation=explanation image=image %}
+                {% endfor %}
+                <!-- {% include _components/example.html type="good" description="Here the green pattern functions as a decorative border. A white box with ample padding is used to contain the text, ensuring it can be easily read." image="example_green-pattern.jpg" %}
                 {% include _components/example.html type="good" description="Here the text overlaid on the pattern is large enough to provide enough contrast with the pattern." image="example_headline-on-pattern.jpg" %}
                 {% include _components/example.html type="bad" description="Here the text overlaid on the pattern is <strong>not</strong> large enough to provide enough contrast with the pattern. A composition with this much text would be an inappropriate instance to use the pattern." image="example_copy-on-pattern.jpg" %}
-                {% include _components/example.html type="good" description="Text must be set in Starr White when overlaid on the dark pattern to create enough contrast." image="example_dark-pattern.jpg" %}
+                {% include _components/example.html type="good" description="Text must be set in Starr White when overlaid on the dark pattern to create enough contrast." image="example_dark-pattern.jpg" %} -->
             </ul>
         </li>
     </ul>
