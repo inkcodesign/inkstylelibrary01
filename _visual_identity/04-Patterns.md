@@ -6,7 +6,7 @@ examples:
     with ample padding is used to contain the text, ensuring it can be easily read.
   image: "/uploads/example_green-pattern.jpg"
   is-good: true
-- explanation: Here the text overlaid on the pattern is large enough to provide enough
+- explanation: Here the text overlaid on the pattern is large enough to provide sufficient
     contrast with the pattern.
   image: "/uploads/example_headline-on-pattern.jpg"
   is-good: true
