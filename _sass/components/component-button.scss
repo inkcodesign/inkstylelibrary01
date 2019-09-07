@@ -5,7 +5,6 @@ button {
 .button {
     display: block;
     background: none;
-    border: none;
     text-align: center;
     @include mono;
     font-size: var(--type-xs);
