@@ -11,12 +11,12 @@ examples:
   image: "/uploads/example_headline-on-pattern.jpg"
   is-good: true
 - explanation: Here the text overlaid on the pattern is not large enough to provide
-    enough contrast with the pattern. A composition with this much text would be an
-    inappropriate instance to use the pattern.
+    sufficient contrast with the pattern. A composition with this much text would
+    be an inappropriate instance to use the pattern.
   image: "/uploads/example_copy-on-pattern.jpg"
   is-good: false
 - explanation: Text must be set in Starr White when overlaid on the dark pattern to
-    create enough contrast.
+    create sufficient contrast.
   image: "/uploads/example_dark-pattern.jpg"
   is-good: true
 ---
