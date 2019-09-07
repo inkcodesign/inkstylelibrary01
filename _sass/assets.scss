@@ -23,9 +23,9 @@
     font-weight: 700;
 }
 
-.asset__description {
-    color: var(--neutral-400);
-}
+// .asset__description {
+//     color: var(--neutral-400);
+// }
 
 div.asset__description {
     @include stack;
