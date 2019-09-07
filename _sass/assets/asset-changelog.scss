@@ -1,0 +1,9 @@
+body.change-log .article__content {
+    & > *+* {
+        --space: var(--space-double);
+    }
+
+    > ul {
+        @include stack-exception(var(--space-default));
+    }
+}
