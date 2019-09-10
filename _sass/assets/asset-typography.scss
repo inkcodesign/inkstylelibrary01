@@ -19,8 +19,8 @@
     color: var(--neutral-400);
 
     * + & {
-    border-top: 1px solid var(--neutral-500);
-    padding-top: var(--space-default);
+        border-top: 1px solid var(--neutral-500);
+        padding-top: var(--space-double);
     }
 
 
@@ -28,6 +28,10 @@
         border-top: 1px solid var(--neutral-500);
         padding-top: var(--space-quart);
         padding-right: var(--space-double);
+
+        * + & {
+            padding-top: var(--space-default);
+        }
     }
 }
 
