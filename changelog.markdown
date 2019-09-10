@@ -8,7 +8,7 @@ date: 2019-09-06 17:34:00 Z
 **Typography**
 * Adjusted web body copy line height from 1.6 to 1.5
 
-
+ 
 **Colors**
 * Adjusted Extended Palette colors to make them more harmonious
 * Added three new colors to the Neutral Palette to allow for more versatile application
