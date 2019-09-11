@@ -23,9 +23,8 @@
 }
 
 .sidebar__collections {
-    > *+* {
-        margin-top: 2.4rem;
-    }
+    @include stack(var(--space-double));
+
 }
 
 .sidebar__collection__title {
@@ -33,9 +32,7 @@
 }
 
 .sidebar__collection {
-    > * + * {
-        margin-top: 2.4rem;
-    }
+    @include stack(var(--space-default));
 }
 
 .sidebar__link {
