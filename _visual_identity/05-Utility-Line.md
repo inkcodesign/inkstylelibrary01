@@ -33,6 +33,6 @@ examples:
   is-good: false
 ---
 
-The utility line is a key aspect of our brand, and can be used in a variety of contexts to bring structure, separation, and color into a composition. Reference the examples below to see appropriate applications of the utility line.
+The utility line is a key aspect of our brand, and can be used in a variety of contexts to bring structure, separation, and color into a composition. Reference the examples below to see appropriate applications of the utility line. 
 
 {% include utility-line.html %}
