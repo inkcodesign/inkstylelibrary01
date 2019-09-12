@@ -9,4 +9,4 @@ ___
 
 #### **Line Length**
 
-The length of the utility line will change depending on context. When used to divide a headline from body copy, the line should span 2-4 letters of the headline. Otherwise, use your best judgement, taking into consideration the line’s purpose and placement.
+The length of the utility line will change depending on context. When used to divide a headline from body copy, the line should span 2-4 letters of the headline. Otherwise, use your best judgement, taking into consideration the line’s purpose and placement. 
