@@ -3,12 +3,12 @@
     justify-content: space-between;
     padding: var(--space-default);
     border-radius: 50%;
-    background-color: var(--green-400);
+    background-color: var(--green-500);
     box-shadow: var(--box-shadow-large);
 
     @include breakpoint(sm) {
     border-radius: 0;
-    background-color: var(--neutral-800);
+    background-color: var(--neutral-000);
     box-shadow: var(--box-shadow);
     }
 }
@@ -51,10 +51,10 @@
 .fab__button-icon {
     width: 2.4rem;
     height: 2.4rem;
-    color: var(--neutral-800);
+    color: var(--neutral-000);
 
     @include breakpoint(sm) {
-        color: var(--neutral-100);
+        color: var(--neutral-500);
         width: unset;
         height: unset;
     }

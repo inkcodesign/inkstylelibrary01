@@ -1,5 +1,5 @@
 * + .asset-section {
-    border-top: 1px solid var(--neutral-600);
+    border-top: 1px solid var(--neutral-200);
     padding-top: var(--space); 
 }
 
@@ -10,7 +10,7 @@
 .asset {
     @include stack(var(--space-double));
     &+& {
-        border-top: 1px solid var(--neutral-600);
+        border-top: 1px solid var(--neutral-200);
         padding-top: var(--space);
     }
 }

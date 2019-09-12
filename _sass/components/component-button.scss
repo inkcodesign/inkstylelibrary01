@@ -8,18 +8,18 @@ button {
     text-align: center;
     @include mono;
     font-size: var(--type-xs);
-    border: 1px solid var(--neutral-500);
+    border: 1px solid var(--neutral-300);
     border-radius: 4px;
     padding: 1em 1.5em;
     color: var(--neutral-400);
     cursor: pointer;
     transition: var(--timing) var(--easing);
-    background: var(--neutral-800);
+    background: var(--neutral-000);
     &:hover,
     &:focus {
-        background-color: var(--neutral-100);
-        border-color: var(--neutral-100);
-        color: var(--neutral-800);
+        background-color: var(--neutral-500);
+        border-color: var(--neutral-500);
+        color: var(--neutral-000);
     }
 }
 
@@ -44,7 +44,7 @@ button {
 
     &:hover,
     &:focus-within {
-        background-color: var(--neutral-800);
+        background-color: var(--neutral-000);
         border-color: var(--neutral-400);
         color: var(--neutral-400);
 

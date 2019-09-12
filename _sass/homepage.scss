@@ -49,7 +49,7 @@ body.home {
 
     & > .homepage__contact {
         --space: var(--space-double-to-quad);
-        border-top: 1px solid var(--neutral-600);
+        border-top: 1px solid var(--neutral-200);
         padding-top: var(--space);
     }
 }
@@ -58,7 +58,7 @@ body.home {
 .homepage__eyebrow {
     @include eyebrow-title;
     font-size: var(--type-default);
-    color: var(--green-400);
+    color: var(--green-500);
 }
 
 .homepage__title {

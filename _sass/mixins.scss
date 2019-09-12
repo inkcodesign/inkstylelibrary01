@@ -22,7 +22,7 @@
         $map: (50rem: 2.4rem, 150rem: 3.2rem);
         @include poly-fluid-sizing('width', $map);
         height: 3px;
-        background-color: var(--green-400);
+        background-color: var(--green-500);
         bottom: 0;
         left: 0;
     }

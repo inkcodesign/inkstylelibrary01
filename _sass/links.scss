@@ -1,8 +1,8 @@
 a {
-    color: var(--green-400);
+    color: var(--green-500);
     text-decoration: none;
     transition: var(--timing) var(--easing);
     &:hover {
-        color: var(--green-400-hover);
+        color: var(--green-500-hover);
     }
 }
