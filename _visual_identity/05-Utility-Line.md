@@ -1,4 +1,5 @@
 ---
+regenerate: true
 title: Utility Bar
 permalink: "/utility-bar/"
 examples:
