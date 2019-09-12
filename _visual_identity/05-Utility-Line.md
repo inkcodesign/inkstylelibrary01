@@ -17,12 +17,14 @@ examples:
     from her bio.
   image: "/uploads/example_line-between-type.jpg"
   is-good: true
-- explanation: A longer utility line can function as a structural element, here, for instance, where it is used to signify the end of the article and provide a division
+- explanation: A longer utility line can function as a structural element, here, for
+    instance, where it is used to signify the end of the article and provide a division
     before the share links below.
   image: "/uploads/example_line-end-of-content.jpg"
   is-good: true
-- explanation: The utility line can be used to direct the reader's eye, here, for instance, where it is being used to draw the eye towards the content from the title
-    above.
+- explanation: The utility line can be used to direct the reader's eye, here, for
+    instance, where it is being used to draw the eye towards the content from the
+    title above.
   image: "/uploads/example_line-to-text.jpg"
   is-good: true
 - explanation: Be careful not to overdo it! Too many utility lines can start to clutter
