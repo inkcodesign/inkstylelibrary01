@@ -5,6 +5,9 @@ examples:
 - explanation: The most common use of the utility line is to separate a title from its content. The gap below the line can be larger than the gap above, but at a minimum it should be equivalent. 
   image: "/uploads/example_line-under-title.jpg"
   is-good: true
+- explanation: This is an instance in which the utility line is unneccessary, as it is neither functioning to separate vertical content or to direct attention towards something.
+  image: "/uploads/example_line-unnecessary.jpg"
+  is-good: false
 - explanation: In a stack of content types, a small utility line can be used to separate the elements into groups. Here it is being used to separate Starr's name and title from her bio.
   image: "/uploads/example_line-between-type.jpg"
   is-good: true
