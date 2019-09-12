@@ -1,6 +1,6 @@
 ---
 title: Utility Line
-date: 2019-09-12 16:53:00 Z
+permalink: "/utility-line/"
 ---
 
 The utility line is a key aspect of our brand, and can be used in a variety of contexts to bring structure, separation, and color into a composition. Reference the examples below to see appropriate applications of the utility line.
