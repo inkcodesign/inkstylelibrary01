@@ -3,6 +3,6 @@ title: Illustrations
 permalink: "/illustrations/"
 ---
 
-Placeholder for Illustration Content
+Placeholder for Content
 
 <!-- {% include utility-line.html %} -->
