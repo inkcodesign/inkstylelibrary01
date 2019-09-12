@@ -1,0 +1,54 @@
+<section class="asset-section asset-section--utility-line">
+    <ul class="assets">
+        <li class="asset">
+            <div class="asset__title-wrapper">
+                <h4 class="asset__title">Line Length</h4>
+                <p class="asset__description">
+                    The length of the utility line will change depending on context. When used to divide a headline from
+                    body copy, the line should span 2-4 letters of the headline. Otherwise, use your best judgement,
+                    taking
+                    into consideration the line’s purpose and placement.
+                </p>
+            </div>
+            <div class="asset__title-wrapper">
+                <h4 class="asset__title">Line Width</h4>
+                <p class="asset__description">
+                    Follow the values below for the proper width of the utility line in various media.
+                </p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Medium</th>
+                        <th>Width</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PowerPoint</td>
+                        <td>2 pt</td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>3px</td>
+                    </tr>
+                    <tr>
+                        <td>Print</td>
+                        <td>2 pt</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li class="asset">
+            <h4 class="asset__title">Utility Line Usage Examples</h4>
+            <ul class="asset__example-wrapper">
+
+                {% for example in page.examples %}
+
+                {% include _components/example.html type=example.is-good explanation=example.explanation image=example.image %}
+
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</section>
