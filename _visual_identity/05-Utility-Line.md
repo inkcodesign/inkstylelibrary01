@@ -1,7 +1,7 @@
 ---
 regenerate: true
-title: Utility Bar
-permalink: "/utility-bar/"
+title: Utility Line
+permalink: "/utility-line/"
 examples:
 - explanation: The most common use of the utility line is to separate a title from
     its content. The gap below the line can be larger than the gap above, but at a
