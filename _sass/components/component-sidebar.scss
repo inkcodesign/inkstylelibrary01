@@ -37,6 +37,7 @@
 
 .sidebar__link {
     color: var(--neutral-400);
+    display: block;
     &:hover,
     &:focus {
         color: var(--green-500);
