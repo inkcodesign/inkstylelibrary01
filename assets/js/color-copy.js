@@ -17,7 +17,6 @@ clipboard.on('success', function (e) {
 });
 
 const copyCode = document.querySelectorAll('.button.copy');
-console.log(copyCode);
 copyCode.forEach(function (btn) {
     btn.addEventListener('click', copySvg);
 });

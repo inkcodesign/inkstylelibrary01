@@ -1,10 +1,12 @@
-table {
-    width: 100%;
+.table__wrapper {
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
     border-color: var(--neutral-200);
     @include body-copy-small;
     @include mono;
-    -webkit-overflow-scrolling: touch;
 }
 
 th {
