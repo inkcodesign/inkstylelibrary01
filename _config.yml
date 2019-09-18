@@ -35,11 +35,19 @@ defaults:
 - scope:
     path: "assets/illustrations/scene"
   values:
-    scene: true
+    type: 'scene'
 - scope:
     path: "assets/illustrations/spot"
   values:
-    spot: true
+    type: 'spot'
+- scope:
+    path: "assets/photography/headshots"
+  values:
+    type: 'headshot'
+- scope:
+    path: "assets/photography/workplace"
+  values:
+    type: 'workplace'
 email: stephen@ink-co.com
 description: Library of INK brand assets for easy access and application.
 baseurl: ''
