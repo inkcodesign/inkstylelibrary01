@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: var(--space-sex);
+    // width: var(--space-sex);
     border-right: 1px solid var(--neutral-200);
     background-color: var(--neutral-000);
     -webkit-overflow-scrolling: touch;
@@ -9,6 +9,9 @@
     padding-bottom: var(--space-default);
 
     @include stack(var(--space-quad));
+
+    $map: (50rem: 2.4rem, 150rem: 3.2rem);
+    @include poly-fluid-sizing('--sidebar-padding', $map);
 }
 
 .sidebar__logo-mark {
@@ -16,8 +19,8 @@
 }
 
 .sidebar__nav {
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
+    padding-left: var(--sidebar-padding);
+    padding-right: var(--sidebar-padding);
     padding-bottom: var(--space-double);
     @include stack(var(--space-quad));
 }
@@ -69,8 +72,8 @@
     display: block;
     color: var(--neutral-500);
     @include stack;
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
+    padding-left: var(--sidebar-padding);
+    padding-right: var(--sidebar-padding);
 
     &:hover {
         color: var(--neutral-500);
@@ -87,6 +90,6 @@
     margin-top: auto;
     border-top: 1px solid var(--neutral-200);
     padding-top: var(--space-default);
-    padding-left: var(--space-double);
-    padding-right: var(--space-double);
+    padding-left: var(--sidebar-padding);
+    padding-right: var(--sidebar-padding);
 }

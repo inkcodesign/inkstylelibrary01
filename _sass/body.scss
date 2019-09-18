@@ -20,7 +20,7 @@ body {
         flex-grow: 1;
 
         @include breakpoint(lg) {
-            margin-left: var(--space-sex);
+            margin-left: var(--offsetWidth);
         }
     }    
 
