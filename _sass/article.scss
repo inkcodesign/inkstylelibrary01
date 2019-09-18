@@ -2,8 +2,12 @@
     max-width: 90rem;
     width: 100%;
     padding-top: var(--space-double);
-    padding-bottom: var(--space-quad);
+    padding-bottom: var(--space-oct);
     @include stack(var(--space-double-to-quad));
+
+    @include breakpoint(sm) {
+        padding-bottom: var(--space-double);
+    }
 
     $map: (50rem: 1.6rem, 150rem: 6.4rem);
     @include poly-fluid-sizing('padding-right', $map);
@@ -15,13 +19,15 @@
 .article__content { //un-classable stuff from markdown
     @include stack;
 
-    hr,
-    section {
-        @include stack-exception(var(--space-double-to-quad));
-    }
 
     h4 {
         font-size: var(--type-md);
+        @include stack-exception(var(--space-double), top);
+    }
+
+    hr,
+    section {
+        @include stack-exception(var(--space-double-to-quad));
     }
 }
 

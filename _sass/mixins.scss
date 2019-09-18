@@ -40,12 +40,29 @@
     }
   }
 
-  @mixin stack-exception($space) {
-    &,
-    & + * {
-      --space: #{$space};
+  @mixin stack-exception($space, $sides: 'both') {
+    @if $sides == "both" {
+      &,
+      & + * {
+        --space: #{$space};
+      }
+    }
+
+    @if $sides == "top" {
+      & {
+        --space: #{$space};
+      }
+    }
+
+    @if $sides == "bottom" {
+      & + * {
+        --space: #{$space};
+      }
     }
   }
+
+
+
 
   @mixin switcher($space: var(--space-default), $threshold: 800px, $limit: 3 ) {
     & > * {
@@ -65,3 +82,44 @@
       flex-basis: 100%;
     }
   }
+
+
+  @mixin reel($space: var(--space-default)) {
+    display: flex;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-color: var(--neutral-200) var(--neutral-000);
+    padding-bottom: 1rem;
+  
+  &::-webkit-scrollbar {
+    height: 1rem;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background-color: var(--neutral-000);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--neutral-000);
+    background-image: linear-gradient(var(--neutral-000) 0, var(--neutral-000) 0.25rem, var(--neutral-200) 0.25rem, var(--neutral-200) 0.75rem, var(--neutral-000) 0.75rem);
+  }
+  
+  & > * {
+    flex: 0 0 undefined;
+  }
+  
+  
+  & > img {
+    height: 100%;
+    flex-basis: auto;
+    width: auto;
+    max-width: unset;
+  }
+  
+  & > * + * {
+    --space: #{$space};
+    margin-left: var(--space);
+  }
+}

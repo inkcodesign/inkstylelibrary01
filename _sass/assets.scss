@@ -13,19 +13,19 @@
         border-top: 1px solid var(--neutral-200);
         padding-top: var(--space);
     }
+
+    &>.bulleted-list {
+        @include stack-exception(var(--space-default), top);
+    }
 }
 
 .asset__title-wrapper {
-    @include stack(var(--space-half));
+    @include stack;
 }
 
 .asset__title {
     font-weight: 700;
 }
-
-// .asset__description {
-//     color: var(--neutral-400);
-// }
 
 div.asset__description {
     @include stack;
