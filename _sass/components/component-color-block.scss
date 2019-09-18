@@ -1,4 +1,10 @@
-.color-block__wrapper {
+.color-block__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: var(--space-default);
+}
+
+.color-block {
     @include stack;
 }
 
@@ -17,22 +23,6 @@
 
     &.tiny {
         height: 5rem;
-    }
-
-    &.pattern {
-        height: 20rem;
-        &::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-image: url(../patterns/pattern.svg);
-            background-size: 10rem;
-            opacity: 1;
-            mix-blend-mode: difference;
-        }
     }
 
     &:hover,
@@ -73,6 +63,5 @@
 .color-block__hex {
     @include mono;
     text-transform: uppercase;
-    --space: var(--space-quart);
-    
+    --space: var(--space-quart);  
 }

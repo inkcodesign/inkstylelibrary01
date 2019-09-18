@@ -20,7 +20,6 @@
 //asset components
 @import '../_sass/assets';
 @import '../_sass/assets/asset-logos';
-@import '../_sass/assets/asset-colors';
 @import '../_sass/assets/asset-typography';
 @import '../_sass/assets/asset-patterns';
 @import '../_sass/assets/asset-changelog';
@@ -31,7 +30,8 @@
 @import '../_sass/components/component-horizontal-rule';
 @import '../_sass/components/component-button';
 @import '../_sass/lists';
-
+@import '../_sass/tables';
+ 
 //components
 @import '../_sass/components/component-example';
 @import '../_sass/components/component-color-block';
