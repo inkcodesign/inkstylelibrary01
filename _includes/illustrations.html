@@ -27,7 +27,7 @@
         <li class="asset">
             <div class="asset__title-wrapper">
                 <h4 class="asset__title">Scene Illustrations</h4>
-                <p class="asset__description">
+                <p>
                     Scene illustrations fill up a full rectangle and depict some kind of scene, whether that's a wide
                     landscape view or a close up. These illustrations are usually visual metaphors, communicating a
                     business idea through a natural occurence. Our services are illustrated as scenes.
@@ -35,20 +35,20 @@
             </div>
             <a class="button" download href="/assets/illustrations/INK_services-illustrations.zip">Download Services
                 Illustrations</a>
-            <div class="asset__illustration-wrapper">
-                <div class="asset__illustration-reel">
-                    {% assign services_illos = site.static_files | where: "scene", true %}
+            <div class="asset__reel-wrapper">
+                <div class="asset__reel asset__reel--scene">
+                    {% assign services_illos = site.static_files | where: "type", 'scene' %}
                     {% for image in services_illos %}
                     <img src="{{ image.path }}" alt="{{image.basename}}">
                     {% endfor %}
                 </div>
-                <p class="asset__illustration-reel-meta">(Scroll horizontally to see more)</p>
+                <p class="asset__reel-meta">(Scroll horizontally to see more)</p>
             </div>
         </li>
         <li class="asset">
             <div class="asset__title-wrapper">
                 <h4 class="asset__title">Spot Illustrations</h4>
-                <p class="asset__description">
+                <p>
                     Spot illustrations are useful to depict objects that stand on their own without a background. We
                     commonly use these types of illustrations in our E-books and social media graphics. The amount of
                     detail in each illustration will depend on how large the illustration will appear in the
@@ -56,20 +56,20 @@
                     one featured on the cover of an E-book.
                 </p>
             </div>
-            <div class="asset__illustration-wrapper">
-                <div class="asset__illustration-reel asset__illustration-reel--spot">
-                    {% assign services_illos = site.static_files | where: "spot", true %}
+            <div class="asset__reel-wrapper">
+                <div class="asset__reel asset__reel--spot">
+                    {% assign services_illos = site.static_files | where: "type", 'spot' %}
                     {% for image in services_illos %}
                     <img src="{{ image.path }}" alt="{{image.basename}}">
                     {% endfor %}
                 </div>
-                <p class="asset__illustration-reel-meta">(Scroll horizontally to see more)</p>
+                <p class="asset__reel-meta">(Scroll horizontally to see more)</p>
             </div>
         </li>
         <li class="asset">
             <div class="asset__title-wrapper">
                 <h4 class="asset__title">Texture Overlay</h4>
-                <p class="asset__description">
+                <p>
                     The tileable shape should be added on top of the whole illustration with the below settings
                     applied.
                     In spot illustrations, you should only apply the overlay on top of the shapes, rather than
@@ -1154,24 +1154,26 @@
                         </svg>
                     </div>
                     <div class="illustration__texture-content">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Setting</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Opacity</td>
-                                    <td>.15</td>
-                                </tr>
-                                <tr>
-                                    <td>Mix Blend Mode</td>
-                                    <td>Soft Light</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table__wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Setting</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Opacity</td>
+                                        <td>.15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mix Blend Mode</td>
+                                        <td>Hard Light</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <a class="illustration-texture__button button" download
                             href="/assets/illustrations/INK_illustration-texture.png">Download Texture</a>
                     </div>
