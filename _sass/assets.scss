@@ -27,16 +27,29 @@
     }
 }
 
+.asset__reel-wrapper { 
+    @include stack;
+}
+
+.asset__reel {
+    @include reel;
+}
+
+.asset__reel-meta {
+    max-width: unset;
+    text-align: center;
+    color: var(--neutral-300);
+    @include mono;
+    @include body-copy-small;
+}
+
+
 .asset__title-wrapper {
     @include stack;
 }
 
 .asset__title {
     font-weight: 700;
-}
-
-div.asset__description {
-    @include stack;
 }
 
 .asset__meta {

@@ -4,29 +4,21 @@
     }
 }
 
-.asset__illustration-wrapper { 
+.asset__reel-wrapper { 
     @include stack;
 }
 
-.asset__illustration-reel {
-    @include reel;
-    height: calc(6 * var(--space-double-to-quad));
-}
-
-.asset__illustration-reel--spot {
+.asset__reel--spot {
     & >*+* {
         --space: var(--space-double-to-quad);
     }
-    height: calc(4 * var(--space-double-to-quad));
-
+    $map: (50rem: 14rem, 150rem: 25rem);
+    @include poly-fluid-sizing('height', $map);
 }
 
-.asset__illustration-reel-meta {
-    max-width: unset;
-    text-align: center;
-    color: var(--neutral-300);
-    @include mono;
-    @include body-copy-small;
+.asset__reel--scene {
+    $map: (50rem: 17rem, 150rem: 35rem);
+    @include poly-fluid-sizing('height', $map);
 }
 
 .asset__illustration-texture-wrapper {
