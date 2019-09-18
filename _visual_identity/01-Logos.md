@@ -23,8 +23,4 @@ examples:
   is-good: false
 ---
 
-#### **Logo Usage Guidelines**
-
-Use the knocked out, white version when overlaid on imagery or on backgrounds with which the grey version would create insufficient contrast.
-
 {% include logos.html %}
