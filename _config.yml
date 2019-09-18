@@ -32,6 +32,14 @@ defaults:
     type: visual_identity
   values:
     layout: collection
+- scope:
+    path: "assets/illustrations/scene"
+  values:
+    scene: true
+- scope:
+    path: "assets/illustrations/spot"
+  values:
+    spot: true
 email: stephen@ink-co.com
 description: Library of INK brand assets for easy access and application.
 baseurl: ''
