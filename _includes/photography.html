@@ -1,0 +1,67 @@
+<section class="asset-section asset-section--illustrations">
+    <ul class="assets">
+        <li class="asset">
+            <div class="asset__title-wrapper">
+                <h4 class="asset__title">INKer Headshots</h4>
+                <p>
+                    Placeholder for Ryan and Stephen to come up with what description belongs here.
+                </p>
+                <p>
+                    We use two aspect ratios for our headshots, a square ratio and a slim ratio. For most applications,
+                    headshots should be displayed in the slim ratio; however, if the image will be displayed in a
+                    circle, such as as an online avatar, the square ratio should be used.
+                </p>
+            </div>
+            <div class="table__wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aspect Ratio</th>
+                            <th>File Dimensions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 * 1</td>
+                            <td>750px * 750px</td>
+                        </tr>
+                        <tr>
+                            <td>1 * 1.5</td>
+                            <td>500px * 750px</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <a class="button" href="https://ink-co.box.com/s/yv06p7w0qbjy7fqk4sd7b7gzuj991rlg" target="_blank"
+                rel="nofollow">View All Headshots on Box</a>
+            <div class="asset__reel-wrapper">
+                <div class="asset__reel asset__reel--headshot">
+                    {% assign photography_headshots = site.static_files | where: "type", 'headshot' %}
+                    {% for image in photography_headshots %}
+                    <img src="{{ image.path }}" alt="{{image.basename}}">
+                    {% endfor %}
+                </div>
+                <p class="asset__reel-meta">(Scroll horizontally to see more)</p>
+            </div>
+        </li>
+        <li class="asset">
+            <div class="asset__title-wrapper">
+                <h4 class="asset__title">Workplace Photography</h4>
+                <p>
+                    Workplace photography should highlight our people and spaces and our collaborative, creative nature.
+                    Color treatment should be saturated and bright but slightly faded. Subjects should have natural,
+                    candid expressions.
+                </p>
+            </div>
+            <div class="asset__reel-wrapper">
+                <div class="asset__reel asset__reel--workplace">
+                    {% assign photography_workplace = site.static_files | where: "type", 'workplace' %}
+                    {% for image in photography_workplace %}
+                    <img src="{{ image.path }}" alt="{{image.basename}}">
+                    {% endfor %}
+                </div>
+                <p class="asset__reel-meta">(Scroll horizontally to see more)</p>
+            </div>
+        </li>
+    </ul>
+</section>

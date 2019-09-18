@@ -1,0 +1,9 @@
+.asset__reel--headshot {
+    $map: (50rem: 18rem, 150rem: 32rem);
+    @include poly-fluid-sizing('height', $map);
+}
+
+.asset__reel--workplace {
+    $map: (50rem: 20rem, 150rem: 35rem);
+    @include poly-fluid-sizing('height', $map);
+}
