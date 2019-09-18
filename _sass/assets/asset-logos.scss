@@ -1,27 +1,7 @@
-.asset__logo-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-
-    > * + * {
-        margin-top: var(--space-quad);
+.asset__switcher--logo {
+    & > * > *:first-child {
+        flex-grow: 2;
     }
-    
-    @include breakpoint(md) {
-        align-items: center;
-        flex-direction: row;
-
-        > * + * {
-            margin-top: 0;
-            margin-left: var(--space-double);
-        }
-    }
-}
-
-.asset__logo {
-    width: 100%;
-    max-width: 30rem;
 }
 
 .asset__logo-buttons {

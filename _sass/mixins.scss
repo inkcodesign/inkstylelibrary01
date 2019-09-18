@@ -64,24 +64,28 @@
 
 
 
-  @mixin switcher($space: var(--space-default), $threshold: 800px, $limit: 3 ) {
-    & > * {
-      display: flex;
-      flex-wrap: wrap;
-      margin: calc((#{$space} / 2) * -1);
+  @mixin switcher($threshold, $gap: var(--space-default), $limit: 2) {
+    --threshold: #{$threshold};
+    --gap: #{$gap};
+    --limit: calc(#{$limit} + 1);
+
+    &>* {
+        display: flex;
+        flex-wrap: wrap;
+        margin: calc((var(--gap) / 2) * -1);
     }
-    
-    & > * > * {
-      flex-grow: 1;
-      flex-basis: calc((#{$threshold} - (100% - #{$space})) * 999);
-      margin: calc(#{$space} / 2);
+
+    &>*>* {
+        flex-grow: 1;
+        flex-basis: calc((var(--threshold) - (100% - var(--gap))) * 999);
+        margin: calc(var(--gap) / 2);
     }
-    
-    & > * > :nth-last-child(n+#{$limit}),
-    & > * > :nth-last-child(n+#{$limit}) ~ * {
-      flex-basis: 100%;
+
+    &>*> :nth-last-child(n+3),
+    &>*> :nth-last-child(n+3)~* {
+        flex-basis: 100%;
     }
-  }
+}
 
 
   @mixin reel($space: var(--space-default)) {

@@ -19,6 +19,14 @@
     }
 }
 
+.asset__switcher {
+    @include switcher(70rem, var(--space-double));
+
+    & > * {
+        align-items: center;
+    }
+}
+
 .asset__title-wrapper {
     @include stack;
 }
@@ -35,4 +43,5 @@ div.asset__description {
     color: var(--neutral-400);
     @include mono;
     @include body-copy-small;
+    @include stack-exception(var(--space-half), top);
 }

@@ -1,13 +1,13 @@
 <section class="asset-section asset-section--colors">
     <ul class="assets">
-        <li class="asset ">
+        <li class="asset">
             <div class="asset__title-wrapper">
                 <h4 class="asset__title">Primary Palette</h4>
                 <p class="asset__description">
                     {{page.primary-description}}
                 </p>
             </div>
-            <ul class="asset__color-wrapper">
+            <ul class="color-block__grid">
                 <li>
                     {% include _components/color-block.html style="button" color="neutral-500" name="Concrete Jungle" hex="#2F2F2E" %}
                 </li>
@@ -27,7 +27,7 @@
                     {{page.neutral-description}}
                 </p>
             </div>
-            <ul class="asset__color-wrapper">
+            <ul class="color-block__grid">
                 <li>
                     {% include _components/color-block.html style="button" size="small" color="neutral-500" name="Neutral-500 (Concrete Jungle)" hex="#2F2F2E" %}
                 </li>
@@ -57,7 +57,7 @@
                     {{page.extended-description}}
                 </p>
             </div>
-            <ul class="asset__color-wrapper">
+            <ul class="color-block__grid">
                 <li>
                     {% include _components/color-block.html style="button" size="small" color="green-800" name="Green-800 (Evergreen)" hex="#1E5749" %}
                 </li>
@@ -93,7 +93,7 @@
                     {{page.auxiliary-description}}
                 </p>
             </div>
-            <ul class="asset__color-wrapper">
+            <ul class="color-block__grid">
                 <li>
                     {% include _components/color-block.html style="button" size="tiny" color="blue-500" name="Blue-500 (Brainstorm Blue)" hex="#37A7AA" %}
                 </li>
