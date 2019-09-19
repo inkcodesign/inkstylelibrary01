@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    // width: var(--space-sex);
+    max-width: var(--space-sex);
     border-right: 1px solid var(--neutral-200);
     background-color: var(--neutral-000);
     -webkit-overflow-scrolling: touch;
@@ -54,8 +54,8 @@
         height: 150%;
         background-color: var(--green-500);
         top: 50%;
-        left: calc(-1 * var(--space-double) + 5px);
-        transform: translate(-100%, -50%);
+        left: calc(-1 * var(--sidebar-padding));
+        transform: translateY(-50%);
     }
 
     &[data-active] {
