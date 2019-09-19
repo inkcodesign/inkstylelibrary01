@@ -43,6 +43,4 @@
 
 .illustration__texture-content {
     @include stack(var(--space-double));
-    display: flex;
-    flex-direction: column;
 }
