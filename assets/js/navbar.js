@@ -1,11 +1,18 @@
 const navbarButton = document.querySelector('.fab__button')
-const body = document.querySelector('body')
+const sidebarButton = document.querySelector('#sidebar__close')
+const html = document.querySelector('html')
+
+
 
 navbarButton.addEventListener('click', function () {
-    if (body.dataset.open == "") {
-        delete body.dataset.open
+    if (html.dataset.open == "") {
+        delete html.dataset.open
 
     } else {
-        body.dataset.open = ""
+        html.dataset.open = ""
     }
+})
+
+sidebarButton.addEventListener('click', function () {
+    delete html.dataset.open
 })
