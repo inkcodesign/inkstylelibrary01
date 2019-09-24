@@ -10,7 +10,7 @@ neutral-description: Use these colors when more than one neutral shade are neede
   can be used.
 extended-description: Use these colors for illustration and data visualization when
   more than one shade of green are needed.
-auxiliary-description: Use these colors sparingly and purposefully, for instance if
+auxiliary-description: Use these colors sparingly and purposefully, for instance, if
   our company culture is the collateral's focus. If in doubt, ask the Design Team
   for approval!
 ---
