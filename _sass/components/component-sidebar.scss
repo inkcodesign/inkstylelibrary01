@@ -93,3 +93,18 @@
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
 }
+
+.sidebar__close {
+    transition: opacity var(--easing) var(--timing);
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background: rgba(0,0,0,.3);
+}

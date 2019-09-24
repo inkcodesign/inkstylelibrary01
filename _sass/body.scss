@@ -34,26 +34,45 @@ body {
             position: sticky;
             top: 0;
             left: 0;
-            z-index: 1;
+            z-index: 2;
         }
 
         @include breakpoint(lg) {
             display: none;
         }
     }
+}
 
+html {
     &[data-open] {
-        overflow-y: hidden;
+        overflow: hidden;
         pointer-events: none;
+        height: 100%;
+        position: fixed;
+
+        body {
+            overflow: hidden;
+            height: 100%;
+            position: fixed;
+            width: 100%;
+        }
 
         .sidebar{
             transform: translateX(0);
             pointer-events: all;
         }
 
+        .sidebar__close {
+            visibility: visible;
+            opacity: 1;
+        }
+
         .fab {
+            pointer-events: all;
+        }
+
+        .sidebar__close {
             pointer-events: all;
         }
     }
 }
-
