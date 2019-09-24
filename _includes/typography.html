@@ -4,9 +4,7 @@
 
             <div class="asset__title-wrapper">
                 <h4 class="asset__title">Our Fonts</h4>
-                <div>
-                    {{ page['Our Fonts Text'] | markdownify }}
-                </div>
+                {{ page['Our Fonts Text'] | markdownify }}
             </div>
 
             <div class="asset__type-wrapper">
@@ -40,7 +38,7 @@
                 <li>
                     <strong>Font size: </strong>Refer to the medium-specific typography scales below when choosing the
                     font sizes for your collateral. Through testing, we've found that these values work in most normal
-                    instances; however, your specific use case may require different font sizes and that is okay.
+                    instances; however, your specific use case may require different font sizes.
                 </li>
                 <li>
                     <strong>Line height: </strong>{{ page['Readability Guidelines']['Line height'] }}
