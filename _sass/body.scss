@@ -48,12 +48,13 @@ html {
         overflow: hidden;
         pointer-events: none;
         height: 100%;
-        position: fixed;
+        // position: fixed;
 
         body {
             overflow: hidden;
-            height: 100%;
-            position: fixed;
+            pointer-events: none;
+            // height: 100%;
+            // position: fixed;
             width: 100%;
         }
 
