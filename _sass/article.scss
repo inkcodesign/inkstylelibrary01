@@ -6,7 +6,7 @@
     @include stack(var(--space-double-to-quad));
 
     @include breakpoint(sm) {
-        padding-bottom: var(--space-double);
+        padding-bottom: var(--space-quad);
     }
 
     $map: (50rem: 1.6rem, 150rem: 6.4rem);
@@ -30,7 +30,7 @@
         @include stack-exception(var(--space-double-to-quad));
     }
 
-    >p a,
+    >p a:hover,
     >ul>li>a:hover {
         color: var(--green-700);
         text-decoration: underline;

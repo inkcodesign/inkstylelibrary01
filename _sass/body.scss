@@ -1,6 +1,6 @@
 body {
 
-    & > .sidebar{
+    & .sidebar{
         position: fixed;
         top: 0;
         left: 0;
@@ -24,7 +24,7 @@ body {
         }
     }    
 
-    & > .fab {
+    & .fab {
         z-index: 3;
         position: fixed;
         bottom: var(--space-default);

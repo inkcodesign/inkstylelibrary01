@@ -15,15 +15,17 @@ regenerate: true
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/favicon.png">
 </head>
 
-<body class="{{page.title | downcase | replace: " ", "-" }}">
-    {% include _components/fab.html %}
-    <main class="main">
-        <article class="article homepage__wrapper">
-            {{content}}
-        </article>
-    </main>
-    {% include _components/sidebar.html %}
-
+<body>
+    <div data-barba="wrapper">
+        {% include _components/fab.html %}
+        <main class="main {{page.title | downcase | replace: " ", "-" }}" data-barba="container">
+            <article class="article homepage__wrapper">
+                {{content}}
+            </article>
+        </main>
+        {% include _components/sidebar.html %}
+    </div>
+    <script src="https://unpkg.com/@barba/core"></script>
     <script src="/assets/js/navbar.js"></script>
     <script src="/assets/js/sidebar.js"></script>
 </body>
