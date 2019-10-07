@@ -5,7 +5,7 @@
     </a>
     <nav class="sidebar__nav">
 
-        {% assign filteredCollections = site.collections | where: "display", true %}
+        {% assign filteredCollections = site.collections | where: "display", true | sort: "order" %}
 
         {% for collection in filteredCollections%}
         {% assign current = page.url | downcase | split: '.' %}

@@ -15,12 +15,12 @@ body {
         }
     }
 
-    & > .main{
+    & .main{
         margin-left: 0;
         flex-grow: 1;
 
         @include breakpoint(lg) {
-            margin-left: var(--offsetWidth);
+            margin-left: var(--space-sex);
         }
     }    
 

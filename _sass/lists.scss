@@ -5,4 +5,13 @@
     padding-left: var(--subtracted-space);
     @include stack;
     max-width: calc(var(--measure) - var(--subtracted-space));
+
+    > li {
+        @include stack();
+        > ul {
+            list-style: circle;
+            margin-left: var(--subtracted-space);
+        }
+    }
+
 }

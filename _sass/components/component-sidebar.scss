@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    max-width: var(--space-sex);
+    width: var(--space-sex);
     border-right: 1px solid var(--neutral-200);
     background-color: var(--neutral-000);
     -webkit-overflow-scrolling: touch;
@@ -21,12 +21,12 @@
 .sidebar__nav {
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
-    padding-bottom: var(--space-double);
+    padding-bottom: var(--space-quad);
     @include stack(var(--space-quad));
 }
 
 .sidebar__collections {
-    @include stack(var(--space-double));
+    @include stack(var(--space-default));
 
 }
 

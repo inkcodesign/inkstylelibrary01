@@ -2,10 +2,6 @@
 title: INK Style Library
 timezone: UTC
 collections:
-  messaging:
-    title: Messaging
-    output: true
-    display: true
   posts:
     title: Posts
     output: true
@@ -16,6 +12,22 @@ collections:
     title: Visual Identity
     output: true
     display: true
+    order: "1"
+  messaging:
+    title: Messaging
+    output: true
+    display: true
+    order: "2"
+  audience:
+    title: Audience
+    output: true
+    display: true
+    order: "3"
+  writing_guide:
+    title: Writing Guide
+    output: true
+    display: true
+    order: "4"
 defaults:
 - scope:
     path: ''
@@ -30,6 +42,16 @@ defaults:
 - scope:
     path: ''
     type: visual_identity
+  values:
+    layout: collection
+- scope:
+    path: ''
+    type: audience
+  values:
+    layout: collection
+- scope:
+    path: ''
+    type: writing_guide
   values:
     layout: collection
 - scope:
