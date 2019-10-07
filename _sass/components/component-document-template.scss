@@ -20,7 +20,6 @@
     &:hover,
     &:focus {
         border-color: var(--neutral-500);
-
         .document-template__icon--open {
             color: var(--neutral-500);
         }
@@ -28,7 +27,6 @@
 }
 
 .document-template__heading {
-    font-weight: 700;
     font-size: var(--type-md);
 }
 
