@@ -29,6 +29,11 @@
     section {
         @include stack-exception(var(--space-double-to-quad));
     }
+
+    a:hover {
+        color: var(--green-700);
+        text-decoration: underline;
+    }
 }
 
 .article__title {

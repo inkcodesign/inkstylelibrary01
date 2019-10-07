@@ -2,7 +2,4 @@ a {
     color: var(--green-500);
     text-decoration: none;
     transition: var(--timing) var(--easing);
-    &:hover {
-        color: var(--green-500-hover);
-    }
 }
