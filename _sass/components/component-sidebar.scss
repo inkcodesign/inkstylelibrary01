@@ -5,11 +5,6 @@
     border-right: 1px solid var(--neutral-200);
     background-color: var(--neutral-000);
     -webkit-overflow-scrolling: touch;
-    padding-top: var(--space-double);
-    padding-bottom: var(--space-default);
-
-    @include stack(var(--space-quad));
-
     $map: (50rem: 2.4rem, 150rem: 3.2rem);
     @include poly-fluid-sizing('--sidebar-padding', $map);
 }
@@ -21,21 +16,25 @@
 .sidebar__nav {
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
-    padding-bottom: var(--space-quad);
-    @include stack(var(--space-quad));
+    padding-top: var(--space-double);
+    padding-bottom: var(--space-double-to-quad);
+    @include stack(var(--space-double));
 }
 
 .sidebar__collections {
     @include stack(var(--space-default));
-
+    &+& {
+        padding-top: var(--space-double);
+        border-top: 1px solid var(--neutral-200);
+    }
 }
 
 .sidebar__collection__title {
     @include eyebrow-title;
 }
-
+ç
 .sidebar__collection {
-    @include stack(var(--space-default));
+    @include stack(var(--space-half));
 }
 
 .sidebar__link {
@@ -72,8 +71,11 @@
     display: block;
     color: var(--neutral-500);
     @include stack;
-    padding-left: var(--sidebar-padding);
-    padding-right: var(--sidebar-padding);
+    padding: var(--sidebar-padding);
+    background-color: var(--neutral-000);
+    position: sticky;
+    top: 0;
+    left: 0;
 
     &:hover {
         color: var(--neutral-500);
@@ -90,6 +92,7 @@
     margin-top: auto;
     border-top: 1px solid var(--neutral-200);
     padding-top: var(--space-default);
+    padding-bottom: var(--space-default);
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
 }
