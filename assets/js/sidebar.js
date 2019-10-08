@@ -1,6 +1,6 @@
 const sidebar = document.querySelector('.sidebar')
 const main = document.querySelector('.main')
-const sidebarLinks = sidebar.querySelectorAll('.sidebar__link')
+const sidebarLinks = sidebar.querySelectorAll('.sidebar__nav .sidebar__link')
 const body = document.querySelector('body')
 
 const setOffset = function () {
