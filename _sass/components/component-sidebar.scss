@@ -4,7 +4,6 @@
     width: var(--space-sex);
     border-right: 1px solid var(--neutral-200);
     background-color: var(--neutral-000);
-    -webkit-overflow-scrolling: touch;
     $map: (50rem: 2.4rem, 150rem: 3.2rem);
     @include poly-fluid-sizing('--sidebar-padding', $map);
 }
@@ -16,17 +15,16 @@
 .sidebar__nav {
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
-    padding-top: var(--space-double);
     padding-bottom: var(--space-double-to-quad);
     @include stack(var(--space-double));
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
 }
 
 .sidebar__collections {
     @include stack(var(--space-default));
-    &+& {
-        padding-top: var(--space-double);
-        border-top: 1px solid var(--neutral-200);
-    }
+    padding-top: var(--space-double);
+    border-top: 1px solid var(--neutral-200);
 }
 
 .sidebar__collection__title {
@@ -86,7 +84,6 @@
 .sidebar__logo-text {
     @include leaguegothic;
     font-size: var(--type-xl);
-    @include green-bar;
 }
 
 .sidebar__bottom-nav {

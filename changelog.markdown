@@ -3,7 +3,7 @@ title: Change Log
 date: 2019-09-06 17:34:00 Z
 ---
 
-#### **September 6, 2019**
+#### **October 09, 2019**
 
 **Typography**
 * Adjusted web body copy line height from 1.6 to 1.5
@@ -14,3 +14,6 @@ date: 2019-09-06 17:34:00 Z
 * Added three new colors to the Neutral Palette to allow for more versatile application
 * Added tints of the Auxiliary Palette's colors to enable icon creation in those colors
 
+
+**Templates**
+* Updated Word Doc and Powerpoint Templates to reflect above changes

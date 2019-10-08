@@ -21,7 +21,7 @@ Follow these guidelines to optimize INK blogs for SEO.
 * Aim for short paragraphs
 * Use subheadings to break up sections of more than 300 words
 * Use bulleted lists when you can
-* Use Hemingway to gauge readability and target a 9th grade level
+* Use [Hemingway](https://www.hemingwayapp.com/){:target="_blank"} to gauge readability and target a 9th grade level
 
 ---
 

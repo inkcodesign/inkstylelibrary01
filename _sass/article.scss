@@ -30,6 +30,10 @@
         @include stack-exception(var(--space-double-to-quad));
     }
 
+    > ul  {
+        @include stack-exception(var(--space-double), bottom);
+    }
+
     >p a:hover,
     >ul>li>a:hover {
         color: var(--green-700);

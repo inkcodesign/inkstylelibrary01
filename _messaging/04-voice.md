@@ -3,13 +3,15 @@ title: Voice
 permalink: "/voice/"
 ---
 
-**INK's voice reflects our brand personality and should come through in all INK marketing content (e.g. blogs, social media, digital ads, email marketing).**
+INK's voice reflects our brand personality and should come through in all INK marketing content (e.g. blogs, social media, digital ads, email marketing).
 
-* Balances friendly and serious
-* Confident
-* Straightforward, clear
-* Approachable and conversational in a way that does not downplay our skillset or expertise
-* Witty, clever, smart-funny 
+---
+#### **Voice Characteristics**
+
+* Friendly and conversational but also whip smart
+* Confident, but never in a know-it-all sort of way
+* Straightforward, clear without being overly simplistic or downplaying our skillset or expertise
+* Witty, smart-funny 
 * Positive
 
 ---
@@ -22,6 +24,8 @@ permalink: "/voice/"
 ---
 
 #### **INK's Voice Balanced With an Author's Personal Voice**
+
+While INK's voice takes cues from our leadership team, our content varies slightly depending on the author. Here's some examples of INK's voice balanced with the author's personal voice:
 
 * [Starr](https://ink-co.com/is-your-agency-in-the-business-of-client-disservice/){:target="_blank"}
 * [Kari](https://ink-co.com/how-to-tame-devils-advocate-marketing-brainstorms/){:target="_blank"}

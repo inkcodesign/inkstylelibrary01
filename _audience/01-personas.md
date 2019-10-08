@@ -3,7 +3,13 @@ title: Personas
 permalink: "/personas/"
 ---
 
+INK marketing targets three different personas within B2B technology companies. To use these personas effectively in your writing, think of a client who fits these attributes and position your content in a way that speaks to them.
+
+---
+
 #### **Mid-level Marketer**
+
+**Wants to know how**
 
 * **Title:** Director of Corporate Comms, Senior PR Manager, Marketing Director, Marketing Programs Manager
 * **Responsibilities:** Day-to-day execution, comms up and down, project/team management
@@ -14,6 +20,8 @@ permalink: "/personas/"
 
 #### **VP of Marketing**
 
+**Wants to know why**
+
 * **Title:** CMO, VP of Marketing, Director of Marketing
 * **Responsibilities:** High-level management  and strategy, overall direction of positioning
 * **Values:** Results, reputation (internally and externally), efficiency (teams, programs)
@@ -22,6 +30,8 @@ permalink: "/personas/"
 ---
 
 #### **Renegade Marketer**
+
+**Wants to know what's new and different**
 
 * **Title:** This is more of a mindset than a specific title, but common titles might include Chief Innovation Officer or Chief Growth Officer
 * **Responsibilities:** Big ideas, change management,  strategy, spokesperson opportunities
