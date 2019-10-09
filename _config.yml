@@ -28,6 +28,11 @@ collections:
     output: true
     display: true
     order: "4"
+  resources:
+    title: Resources
+    output: true
+    display: true
+    order: "5"
 defaults:
 - scope:
     path: ''
@@ -52,6 +57,11 @@ defaults:
 - scope:
     path: ''
     type: writing_guide
+  values:
+    layout: collection
+- scope:
+    path: ''
+    type: resources
   values:
     layout: collection
 - scope:
