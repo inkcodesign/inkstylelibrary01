@@ -35,6 +35,9 @@
     padding: 0;
     padding: var(--space-default);
 
+    @include breakpoint(sm) {
+        padding: 0;
+    }
 
     .fab__button-icon.close {
         display: none;
