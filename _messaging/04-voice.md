@@ -3,12 +3,12 @@ title: Voice
 permalink: "/voice/"
 ---
 
-INK's voice reflects our brand personality and should come through in all INK marketing content (e.g. blogs, social media, digital ads, email marketing).
+INK's voice reflects our brand personality and should come through in all INK marketing content (e.g. blogs, social media, digital ads, email marketing). When you think of INK's voice, think of our leadership team.
 
 ---
 #### **Voice Characteristics**
 
-* Friendly and conversational but also whip smart
+* Friendly and conversational, but also whip smart
 * Confident, but never in a know-it-all sort of way
 * Straightforward, clear without being overly simplistic or downplaying our skillset or expertise
 * Witty, smart-funny 
@@ -16,14 +16,15 @@ INK's voice reflects our brand personality and should come through in all INK ma
 
 ---
 
-#### **Straightforward INK Voice**
+#### **Voice Samples**
+
+##### **Straightforward INK Voice**
 
 * [Introduction to Analyst Relations](https://ink-co.com/introduction-to-analyst-relations/){:target="_blank"}
 * [Human-centered Marketing](https://ink-co.com/whitepaper/human-centered-marketing-change-approach/){:target="_blank"}
 
----
 
-#### **INK's Voice Balanced With an Author's Personal Voice**
+##### **INK's Voice Balanced With an Author's Personal Voice**
 
 While INK's voice takes cues from our leadership team, our content varies slightly depending on the author. Here's some examples of INK's voice balanced with the author's personal voice:
 
@@ -32,9 +33,7 @@ While INK's voice takes cues from our leadership team, our content varies slight
 * [Blair](https://ink-co.com/b2b-companies-shouldnt-neglect-organic-social-strategy/){:target="_blank"}
 * [Shelley](https://ink-co.com/marketing-reporting-bad-comms-program-start-analyzing/){:target="_blank"}
 
----
-
-#### **INK Voice on Social**
+##### **INK Voice on Social**
 
 * While paid social media is perfect for serving up quick wins that boost KPIs, organic social is the long game that builds credibility. SVP 
 @poloskey gets real about why your brand still needs an organic social strategy. 

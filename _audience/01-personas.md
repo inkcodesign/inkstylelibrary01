@@ -3,7 +3,7 @@ title: Personas
 permalink: "/personas/"
 ---
 
-INK marketing targets three different personas within B2B technology companies. To use these personas effectively in your writing, think of a client who fits these attributes and position your content in a way that speaks to them.
+INK marketing targets three different personas within B2B technology companies. To use these personas effectively in your writing, think of a client who fits these attributes and position your content in a way that speaks to them. 
 
 ---
 

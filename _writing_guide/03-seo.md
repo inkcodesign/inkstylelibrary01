@@ -3,7 +3,7 @@ title: Writing for SEO
 permalink: "/seo/"
 ---
 
-Follow these guidelines to optimize INK blogs for SEO.
+Follow these guidelines to optimize INK content for SEO.
 
 ---
 

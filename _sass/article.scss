@@ -25,6 +25,10 @@
         @include stack-exception(var(--space-double), top);
     }
 
+    h5 {
+        @include stack-exception(var(--space-double), top);
+    }
+
     hr,
     section {
         @include stack-exception(var(--space-double-to-quad));
