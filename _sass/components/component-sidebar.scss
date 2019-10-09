@@ -15,7 +15,7 @@
 .sidebar__nav {
     padding-left: var(--sidebar-padding);
     padding-right: var(--sidebar-padding);
-    padding-bottom: var(--space-double-to-quad);
+    padding-bottom: var(--space-double);
     @include stack(var(--space-double));
     -webkit-overflow-scrolling: touch;
     overflow-y: auto;
