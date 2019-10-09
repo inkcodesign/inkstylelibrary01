@@ -26,7 +26,7 @@ INK's voice reflects our brand personality and should come through in all INK ma
 
 ##### **INK's Voice Balanced With an Author's Personal Voice**
 
-While INK's voice takes cues from our leadership team, our content varies slightly depending on the author. Here's some examples of INK's voice balanced with the author's personal voice:
+While INK's voice takes cues from our leadership team, our content varies slightly depending on the author. Here are some examples of INK's voice balanced with the author's personal voice:
 
 * [Starr](https://ink-co.com/is-your-agency-in-the-business-of-client-disservice/){:target="_blank"}
 * [Kari](https://ink-co.com/how-to-tame-devils-advocate-marketing-brainstorms/){:target="_blank"}

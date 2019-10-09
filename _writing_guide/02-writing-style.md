@@ -20,7 +20,6 @@ INK primarily adheres to [AP Style](https://www.apstylebook.com/){:target="_blan
 * **Avoid repetition:** Get rid of duplicated words in the same sentence or across paragraphs (if possible), unless there is a purpose.
 * **Limit weak words and hedging words:** Somewhat, a little, rather, arguably, we think, we believe
 * **Make sure what you mean is what you say:** Be careful that the word you choose reflects its true meaning.
-* **Go beyond business as usual:** Showcase our unique thinking or how we're approaching a problem differently.
 * **Empower the reader:** Never talk down to our audience or underestimate their experience and expertise. Instead of "You should do this," we might say, "This will give you these benefits." 
 * **Punch it up:** Strive to use strong, illustrative words. Avoid overused and watered down words like "good," "great," and "things." 
 * **Use exclamation points sparingly:** "Settle down," - Blair Poloskey.

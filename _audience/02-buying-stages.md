@@ -17,6 +17,6 @@ This stage is when someone is simply searching for information on a particular t
 
 #### **Evaluating**
 
-This stage is when someone is interested in hiring an outside agency or partner to help them. They're likely assessing different companies, one of which could be INK. We can appeal to these people by explaining and illustrating they way we do things at INK, how we are different from other agencies, and why we're an awesome partner.
+This stage is when someone is interested in hiring an outside agency or partner to help them. They're likely assessing different companies, one of which could be INK. We can appeal to these people by explaining and illustrating the way we do things at INK, how we are different from other agencies, and why we're an awesome partner.
    
 **Example:** We have a unique approach to measurement. INK's Planning & Analysis philosophy might be interesting content for an evaluator to read.

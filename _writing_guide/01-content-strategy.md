@@ -5,7 +5,7 @@ permalink: "/content-strategy/"
 
 Our content strategy is rooted in providing value and relating to our target audience, not being self-promotional. With everything we create and share, we make sure we can answer the question, "How is this useful to my audience?"
 
-At the core, we aim to provide our audience with a new perspective or approach to a topic. Our audience should finish reading an INK piece and think, "Wow i'd never considered X" or "I've read 10 pieces on Y and none of them took that approach or POV."
+At the core, we aim to provide our audience with a new perspective or approach to a topic. Our audience should finish reading an INK piece and think, "Wow I'd never considered X" or "I've read 10 pieces on Y and none of them took that approach or POV."
 
 ---
 
