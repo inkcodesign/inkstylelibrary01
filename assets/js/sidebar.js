@@ -31,6 +31,7 @@ barba.init({
         },
         after({ current, next, trigger }) {
             window.scrollTo(0, 0);
+            copyStuffInit()
         }
     }]
 })
