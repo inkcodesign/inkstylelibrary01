@@ -3,6 +3,14 @@ title: Change Log
 date: 2019-09-06 17:34:00 Z
 ---
 
+#### **October 11, 2019**
+
+**Templates** 
+
+* Added New Business PowerPoint Template to match the changes in the main template
+
+---
+
 #### **October 09, 2019**
 
 **Typography**
@@ -16,4 +24,4 @@ date: 2019-09-06 17:34:00 Z
 
 
 **Templates**
-* Updated Word Doc and Powerpoint Templates to reflect above changes
+* Updated Word Document and PowerPoint Templates to reflect above changes
