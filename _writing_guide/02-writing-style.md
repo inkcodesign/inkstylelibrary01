@@ -26,3 +26,5 @@ INK primarily adheres to [AP Style](https://www.apstylebook.com/){:target="_blan
 * **Avoid industry- or INK-specific jargon:** Words like byline, coverage, deck, drinking the Kool-Aid, package up, voiceover, gut check.
 * **Avoid overused buzzwords:** Innovative, groundbreaking, disruptive, pioneering
 * **Avoid scare tactics:** Instead of "Are you missing out on media opportunities?" we might say, "This can help you differentiate your company's story and secure media opportunities." 
+* **Use inclusive, gender-neutral language:** Use “folks” or “people” rather than “guys”; “staffed” or “handled” rather than “manned”; “go-between” rather than “middleman,” etc.
+* **Avoid ableist language:** “Crazy,” “OCD,” “blind,” “lame,” “insane,” and so on
