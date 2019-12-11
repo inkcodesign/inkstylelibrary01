@@ -3,6 +3,14 @@ title: Change Log
 date: 2019-09-06 17:34:00 Z
 ---
 
+#### **December 11, 2019**
+
+**Writing Style** 
+
+* Added additional guidelines around inclusive language.
+
+---
+
 #### **October 11, 2019**
 
 **Templates** 
