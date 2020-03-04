@@ -35,5 +35,3 @@ permalink: "/core-values/"
 
 **Never stop learning.**
 
-
----
