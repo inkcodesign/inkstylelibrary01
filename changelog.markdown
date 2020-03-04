@@ -3,6 +3,14 @@ title: Change Log
 date: 2019-09-06 17:34:00 Z
 ---
 
+#### **March 4, 2020**
+
+**Core Values** 
+
+* Added Core Values.
+
+---
+
 #### **December 11, 2019**
 
 **Writing Style** 
