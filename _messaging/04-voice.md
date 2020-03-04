@@ -1,5 +1,4 @@
 ---
----
 title: Voice
 permalink: "/voice/"
 ---
