@@ -3,6 +3,6 @@ title: Positioning Statement
 permalink: "/positioning-statement/"
 ---
 
-**INK is a marketing communications partner that helps B2B technology brands move beyond what’s predictable by rethinking what’s possible.**
+**INK is a PR and marketing agency for tech companies. We create integrated communications programs that help our clients differentiate their brand, build their market leadership, and grow their business.**
 
-We create human-centered campaigns inspired by new thinking, informed by data-driven insights, and validated by experience. When your market shifts quickly, we respond to emerging opportunities that will build an enduring brand. Because your goals are our goals, we operate as an extension of your team and help you get the results that matter.
+We work with marketers who believe in the balance of quick wins and enduring partnerships, who embrace changing course when the need arises, and who value impact over vanity metrics. As an extension of your team, our PR, content, digital, creative, and research experts operate in sync to deliver scalable strategy and results that matter. Together, we create audience-centric campaigns informed by data, sparked by creative intuition, and validated by experience.
