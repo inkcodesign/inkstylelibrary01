@@ -29,7 +29,7 @@ INK targets three different personas within B2B technology companies. To use the
 * **Values:** Results, reputation (internally and externally), efficiency (teams, programs)
 * **Challenges:** Lack of time, maintaining company growth/improvement/alignment, fears vulnerability
 * **Post-COVID:** Prioritizing brand strategy, boosting digital advertising and paid search spend, focused on retaining customers and growing loyalty and advocacy, interested in full customer life cycle
-* **Post-COVID:** Transforming business strategies, executing on DE&I initiatives, focusing on the overall customer experience instead of the sale, sharing agency resources with broader C-suite, measuring marketing success by customer retention and expansion
+* **2021 Priorities:** Transforming business strategies, executing on DE&I initiatives, focusing on the overall customer experience instead of the sale, sharing agency resources with broader C-suite, measuring marketing success by customer retention and expansion
 
 
 ---
