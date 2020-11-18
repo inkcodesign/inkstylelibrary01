@@ -5,22 +5,22 @@ permalink: "/key-messages/"
 
 #### **Our Approach**
 
-**Transform your B2B marketing with a human-to-human mindset.**
+**We maximize impact and value through audience-centered communications.**
 
-We match powerful analytics with an approach that embraces empathy and curiosity to connect your brand with the people it serves. Understanding your customers through data and discussion uncovers the biggest opportunities for marketing communications. We bring your story to life in a way that resonates, educates, and incites action.
+Zeroing in on your target audiences enables us to achieve the greatest possible impact with our programs while optimizing resources. With deep audience understanding – built through research, empathy, and experience – we connect your brand with the people it serves when and where it matters. We bring your story to life in a way that incites action.
 
 ---
 
 #### **Our Work**
 
-**We power creative intuition with data-driven insights to help you reach what’s next.**
+**We remove the guesswork with data-driven insights and proven success.**
 
-By using timely data to inform and evaluate every aspect of our work, we’re able to test concepts, pivot when needed, and de-risk the pursuit of uncharted territory. We bring together left and right brain thinkers to create campaigns that are inspired by fresh ideas, backed by data and insights, and built on proven success.
+By using timely data to guide and evaluate every aspect of our work, we’re able to test, adapt, and scale our strategies. We bring together specialists from across marketing channels to coordinate campaigns that are informed by data, sparked by creative intuition, and validated by experience.
 
 ---
 
 #### **Our Partnership**
 
-**When change is the only constant, you need a partner who leads in real time.**
+**We lead you through change with agility.**
 
-Whether it’s a shift in business priorities, customer behavior, or the market, success depends on our ability to evolve quickly enough to be effective. We run planning and execution in parallel, guiding you through the changes that impact your business. With a marketing program that’s responsive, we can seek out emerging opportunities while building an enduring brand.
+Whether it’s a shift in business priorities, customer behavior, or the market, success depends on our ability to evolve quickly enough to be effective. We guide you through the communications challenges that impact your business, adapting our strategy to ensure we’re always tracking toward your ultimate goals.
