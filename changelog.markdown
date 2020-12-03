@@ -3,6 +3,14 @@ title: Change Log
 date: 2019-09-06 17:34:00 Z
 ---
 
+#### **December 2, 2020**
+
+**Templates** 
+
+* Updated Smart Objectives pdf template.
+
+---
+
 #### **March 4, 2020**
 
 **Core Values** 
