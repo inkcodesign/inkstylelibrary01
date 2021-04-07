@@ -7,7 +7,7 @@ permalink: "/key-messages/"
 
 **We maximize impact and value through audience-centered communications.**
 
-Zeroing in on your target audiences enables us to achieve the greatest possible impact with our programs while optimizing resources. With deep audience understanding – built through research, empathy, and experience – we connect your brand with the people it serves when and where it matters. We bring your story to life in a way that incites action.
+Zeroing in on your target audiences enables us to achieve the greatest possible impact with our programs while optimizing resources. With deep audience understanding – built through research, empathy, and industry experience – we connect your brand with the people it serves when and where it matters. We bring your story to life in a way that incites action.
 
 ---
 
@@ -21,6 +21,6 @@ By using timely data to guide and evaluate every aspect of our work, we’re abl
 
 #### **Our Partnership**
 
-**We lead you through change with agility.**
+**We lead you through change with confidence and agility.**
 
-Whether it’s a shift in business priorities, customer behavior, or the market, success depends on our ability to evolve quickly enough to be effective. We guide you through the communications challenges that impact your business, adapting our strategy to ensure we’re always tracking toward your ultimate goals.
+Whether it’s a shift in business priorities, customer behavior, or the market, success depends on our ability to evolve quickly enough to be effective. We guide you through the communications challenges that impact your business, adapting our strategy to ensure we’re always tracking toward your ultimate goals. This day-to-day commitment drives remarkable partnerships.
