@@ -1,6 +1,6 @@
 ---
-title: Updated Templates
-permalink: "/updated_templates/"
+title: Templates
+permalink: "/templates/"
 ---
 
 * [General Word Document Template](https://ink-co.box.com/s/kj700ud8flv9k08vd02gze1z49qkencu){:target="_blank"}
