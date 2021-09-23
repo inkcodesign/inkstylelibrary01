@@ -5,7 +5,7 @@ permalink: "/core-values/"
 
 #### **Enlightened**
 
-Be there before.
+Be there before. Always. 
 
 
 ---
